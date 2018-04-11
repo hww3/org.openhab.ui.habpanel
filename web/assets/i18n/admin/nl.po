@@ -11,7 +11,7 @@ msgstr ""
 "Last-Translator: openhab-bot <bot@openhab.org>\n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
-"PO-Revision-Date: 2018-04-11 11:00-0400\n"
+"PO-Revision-Date: 2018-04-11 11:26-0400\n"
 
 #. Save button in the dashboard designer
 msgctxt "designer.save"
@@ -380,7 +380,7 @@ msgstr ""
 #. Test button below the voice selection - make the voice say "habpanel 1 2 3"
 msgctxt "settings.panel.voicesupport.speech_synthesis_voice.test"
 msgid "Test"
-msgstr ""
+msgstr "Test"
 
 #. Checkbox
 msgctxt "settings.panel.voicesupport.floating_speech_button"
@@ -415,12 +415,12 @@ msgstr ""
 #. Blue button
 msgctxt "settings.localconfig.import"
 msgid "Import"
-msgstr ""
+msgstr "Importeren"
 
 #. Blue button
 msgctxt "settings.localconfig.export"
 msgid "Export"
-msgstr ""
+msgstr "Exporteren"
 
 #. Default label for the white button on the right
 msgctxt "settings.localconfig.copy"
@@ -445,17 +445,17 @@ msgstr ""
 #. Label displayed for a few seconds on the copy or save button if an error occurred
 msgctxt "settings.localconfig.failed"
 msgid "FAILED!"
-msgstr ""
+msgstr "MISLUKT!"
 
 #. Displayed in a dialog box
 msgctxt "settings.localconfig.error.nodashboardsfound"
 msgid "No dashboards found!"
-msgstr ""
+msgstr "Geen dashboards gevonden!"
 
 #. Title of a a dialog box
 msgctxt "settings.localconfig.parsingerror.dialog.title"
 msgid "Error"
-msgstr ""
+msgstr "Fout"
 
 #. Message in a dialog box
 msgctxt "settings.localconfig.parsingerror.dialog.message"
