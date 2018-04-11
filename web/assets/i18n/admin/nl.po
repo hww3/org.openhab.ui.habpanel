@@ -11,7 +11,7 @@ msgstr ""
 "Last-Translator: openhab-bot <bot@openhab.org>\n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
-"PO-Revision-Date: 2018-04-11 11:52-0400\n"
+"PO-Revision-Date: 2018-04-11 15:11-0400\n"
 
 #. Save button in the dashboard designer
 msgctxt "designer.save"
@@ -880,7 +880,7 @@ msgstr "gemeenschapsbijdrage"
 #. 2b. Name of a community contribution
 msgctxt "widgetgallery.details.widget.hint.repository"
 msgid "repository"
-msgstr ""
+msgstr "repository"
 
 #. 3. Suffix of the explanation in the expanded details section
 msgctxt "widgetgallery.details.widget.hint.suffix"
