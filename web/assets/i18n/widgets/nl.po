@@ -11,57 +11,57 @@ msgstr ""
 "Last-Translator: openhab-bot <bot@openhab.org>\n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
-"PO-Revision-Date: 2018-01-18 13:32-0500\n"
+"PO-Revision-Date: 2018-04-11 11:52-0400\n"
 
 #. Common term in widget settings dialogs
 msgctxt "widget.common.min"
 msgid "Min"
-msgstr ""
+msgstr "Min"
 
 #. Common term in widget settings dialogs
 msgctxt "widget.common.max"
 msgid "Max"
-msgstr ""
+msgstr "Max"
 
 #. Common term in widget settings dialogs
 msgctxt "widget.common.step"
 msgid "Step"
-msgstr ""
+msgstr "Interval"
 
 #. Common term in widget settings dialogs
 msgctxt "widget.common.unit"
 msgid "Unit"
-msgstr ""
+msgstr "Eenheid"
 
 #. Common term in widget settings dialogs
 msgctxt "widget.common.format"
 msgid "Format"
-msgstr ""
+msgstr "Formaat"
 
 #. Common option label in widget settings dialogs
 msgctxt "widget.common.format.useserverprovided"
 msgid "Use server-provided format if available"
-msgstr ""
+msgstr "Gebruik server-formaat indien beschikbaar"
 
 #. Common option label in widget settings dialogs
 msgctxt "widget.common.dontwrap"
 msgid "Value right of label"
-msgstr ""
+msgstr "Waarde rechts van label"
 
 #. Common option label in widget settings dialogs
 msgctxt "widget.common.backdrop_center"
 msgid "Center backdrop horizontally"
-msgstr ""
+msgstr "Achtergrond horizontaal centreren"
 
 #. Common option label in widget settings dialogs
 msgctxt "widget.common.icon_nolinebreak"
 msgid "Icon left of label instead of below"
-msgstr ""
+msgstr "Icoon links van label in plaats van eronder"
 
 #. Common option label in widget settings dialogs
 msgctxt "widget.common.icon_replacestext"
 msgid "Icon replaces textual value display"
-msgstr ""
+msgstr "Toon icoon in plaats van tekstwaarde"
 
 #. Common tab header label
 msgctxt "widget.common.general"
@@ -1030,7 +1030,7 @@ msgstr ""
 #. Settings dialog title
 msgctxt "widget.switch.settings.header"
 msgid "Switch Settings"
-msgstr ""
+msgstr "Instellingen voor schakelaar"
 
 #. Header
 msgctxt "widget.switch.display"
