@@ -11,7 +11,7 @@ msgstr ""
 "Last-Translator: openhab-bot <bot@openhab.org>\n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
-"PO-Revision-Date: 2018-04-11 11:32-0400\n"
+"PO-Revision-Date: 2018-04-11 11:41-0400\n"
 
 #. Save button in the dashboard designer
 msgctxt "designer.save"
@@ -90,7 +90,7 @@ msgstr "Nieuw Widget"
 
 msgctxt "designer.serversavefailed"
 msgid "Server save failed!"
-msgstr ""
+msgstr "Opslaan op server mislukt!"
 
 #. Title of the dashboard settings dialog
 msgctxt "dashboard.settings.dialog.title"
@@ -190,17 +190,17 @@ msgstr "Zoek of selecteer een openHAB item"
 #. Icon picker dropdown placeholder
 msgctxt "iconpicker.selecticonset"
 msgid "Select icon set"
-msgstr ""
+msgstr "Selecteer icoon set"
 
 #. Icon picker dropdown entry
 msgctxt "iconpicker.customicon"
 msgid "Custom icon"
-msgstr ""
+msgstr "Aangepast icoon"
 
 #. Icon picker dropdown entry
 msgctxt "iconpicker.customurl"
 msgid "Custom URL"
-msgstr ""
+msgstr "Aangepaste URL"
 
 #. Icon picker dropdown entry
 msgctxt "iconpicker.none"
@@ -335,7 +335,7 @@ msgstr ""
 #. Checkbox
 msgctxt "settings.panel.appearance.hide_toolbar_buttons"
 msgid "Hide toolbar buttons:"
-msgstr ""
+msgstr "Verberg werkbalk knoppen:"
 
 #. Checkbox
 msgctxt "settings.panel.appearance.show_clock"
@@ -425,22 +425,22 @@ msgstr "Exporteren"
 #. Default label for the white button on the right
 msgctxt "settings.localconfig.copy"
 msgid "Copy"
-msgstr ""
+msgstr "Kopiëren"
 
 #. Label displayed on the button for a few seconds after a successful copy to clipboard
 msgctxt "settings.localconfig.copied"
 msgid "Copied!"
-msgstr ""
+msgstr "Gekopieerd!"
 
 #. Default label for the red button on the right
 msgctxt "settings.localconfig.save"
 msgid "Save"
-msgstr ""
+msgstr "Opslaan"
 
 #. Label displayed on the button for a few seconds after a successful save
 msgctxt "settings.localconfig.saved"
 msgid "Saved!"
-msgstr ""
+msgstr "Opgeslagen!"
 
 #. Label displayed for a few seconds on the copy or save button if an error occurred
 msgctxt "settings.localconfig.failed"
@@ -720,52 +720,52 @@ msgstr ""
 #. Textbox header
 msgctxt "customwidgets.designer.settings.config.label"
 msgid "Label"
-msgstr ""
+msgstr "Label"
 
 #. Textbox header
 msgctxt "customwidgets.designer.settings.config.default"
 msgid "Default value"
-msgstr ""
+msgstr "Standaard waarde"
 
 #. Textbox header
 msgctxt "customwidgets.designer.settings.config.choices"
 msgid "Choices"
-msgstr ""
+msgstr "Keuzes"
 
 #. Textbox placeholder
 msgctxt "customwidgets.designer.settings.config.choices.hint"
 msgid "Comma-separated possible values"
-msgstr ""
+msgstr "Door comma gescheiden mogelijke waarden"
 
 #. Textbox header
 msgctxt "customwidgets.designer.settings.config.description"
 msgid "Description"
-msgstr ""
+msgstr "Omschrijving"
 
 #. Banner displayed when selecting the Icon type for the settings, followed by the defined settings themselves
 msgctxt "customwidgets.designer.settings.config.icon.hint"
 msgid "This will define 2 config elements:"
-msgstr ""
+msgstr "Dit zal 2 configuratie-elementen definiëren:"
 
 #. Tab header
 msgctxt "customwidgets.designer.preview"
 msgid "Preview"
-msgstr ""
+msgstr "Voorbeeld"
 
 #. Dialog box title
 msgctxt "widgetgallery.heading"
 msgid "Widget Gallery"
-msgstr ""
+msgstr "Widget Galerij"
 
 #. Dialog box title (when displaying a repository)
 msgctxt "widgetgallery.heading.importrepo"
 msgid "Import GitHub Repository"
-msgstr ""
+msgstr "Importeer van GitHub"
 
 #. Dialog box title (when displaying a community gallery item)
 msgctxt "widgetgallery.heading.importgallery"
 msgid "Import Gallery Item"
-msgstr ""
+msgstr "Importeer Galerie Item"
 
 #. Alert banner message
 msgctxt "widgetgallery.warning.githubratelimit"
@@ -775,12 +775,12 @@ msgstr ""
 #. Alert banner message (2nd part)
 msgctxt "widgetgallery.warning.githubratelimit.wait"
 msgid "Wait until this time and try again:"
-msgstr ""
+msgstr "Wacht tot deze tijd en probeer opnieuw:"
 
 #. Textbox placeholder
 msgctxt "widgetgallery.addressbar.hint"
 msgid "GitHub repository full name (owner/name) or URL"
-msgstr ""
+msgstr "GitHub repository volledige naam (eigenaar/naam) of URL"
 
 #. Button on the right of the addressbar
 msgctxt "widgetgallery.addressbar.go"
@@ -795,22 +795,22 @@ msgstr ""
 #. On the right with the sort options
 msgctxt "widgetgallery.toolbar.sortby"
 msgid "sort by:"
-msgstr ""
+msgstr "sorteer op:"
 
 #. Link to change the sort criteria - keep the non breaking spaces (&nbsp;)
 msgctxt "widgetgallery.toolbar.sortby.mostrecent"
 msgid "most&nbsp;recent"
-msgstr ""
+msgstr "meest&nbsp;recente"
 
 #. Link to change the sort criteria - keep the non breaking spaces (&nbsp;)
 msgctxt "widgetgallery.toolbar.sortby.mostliked"
 msgid "most&nbsp;liked"
-msgstr ""
+msgstr "meest&nbsp;ge-liked"
 
 #. Link to change the sort criteria - keep the non breaking spaces (&nbsp;)
 msgctxt "widgetgallery.toolbar.sortby.mostpopular"
 msgid "most&nbsp;popular"
-msgstr ""
+msgstr "meest&nbsp;populaire"
 
 #. Link to change the sort criteria - keep the non breaking spaces (&nbsp;)
 msgctxt "widgetgallery.toolbar.sortby.mostdiscussed"
@@ -830,32 +830,32 @@ msgstr ""
 #. Label of the big green button when nothing to import
 msgctxt "widgetgallery.details.nothingtoimport"
 msgid "Nothing to import"
-msgstr ""
+msgstr "Niets te importeren"
 
 #. Label of the big green button when 1 widget was found
 msgctxt "widgetgallery.details.importwidget"
 msgid "Import Widget"
-msgstr ""
+msgstr "Importeer Widget"
 
 #. Label of the big green button when 2 or more widgets were found
 msgctxt "widgetgallery.details.importwidgets"
 msgid "Import {} Widgets"
-msgstr ""
+msgstr "Importeer {} Widgets"
 
 #. Label of the big blue button when there is a referenced GitHub repo
 msgctxt "widgetgallery.details.gotorepository"
 msgid "Go to the repository"
-msgstr ""
+msgstr "Ga naar de repository"
 
 #. Displyed in orange inside the big green button after a number, when some widgets are already present
 msgctxt "widgetgallery.details.toupdate"
 msgid "to update"
-msgstr ""
+msgstr "bijwerken"
 
 #. Little white button label with a down caret
 msgctxt "widgetgallery.details.showdetails"
 msgid "Show details"
-msgstr ""
+msgstr "Toon details"
 
 #. Little white button label with a up caret
 msgctxt "widgetgallery.details.hidedetails"
@@ -865,17 +865,17 @@ msgstr ""
 #. Little white button label
 msgctxt "widgetgallery.details.downloadzip"
 msgid "Download ZIP"
-msgstr ""
+msgstr "Download Zip"
 
 #. 1. Prefix of the explanation in the expanded details section
 msgctxt "widgetgallery.details.widget.hint.prefix"
 msgid "This"
-msgstr ""
+msgstr "Dit"
 
 #. 2a. Name of a community contribution
 msgctxt "widgetgallery.details.widget.hint.communitycontribution"
 msgid "community contribution"
-msgstr ""
+msgstr "gemeenschapsbijdrage"
 
 #. 2b. Name of a community contribution
 msgctxt "widgetgallery.details.widget.hint.repository"
@@ -885,7 +885,7 @@ msgstr ""
 #. 3. Suffix of the explanation in the expanded details section
 msgctxt "widgetgallery.details.widget.hint.suffix"
 msgid "contains the following widgets; you can import them individually:"
-msgstr ""
+msgstr "bevat de volgende widgets; u kunt hen individueel importeren:"
 
 #. Explanation in the expanded details section
 msgctxt "widgetgallery.details.widget.hint.nowidgets"
@@ -895,32 +895,32 @@ msgstr ""
 #. Explanation in the expanded details section
 msgctxt "widgetgallery.details.widget.hint.checkrepo"
 msgid "The widgets are likely in the referenced GitHub repository. Click the 'Go to the repository' button to open it."
-msgstr ""
+msgstr "De widgets zijn waarschijnlijk aanwezig in de GitHub repository. Klik op de knop 'Ga naar de repository' om deze te openen."
 
 #. Green button in the expanded details section
 msgctxt "widgetgallery.details.widget.import"
 msgid "Import widget"
-msgstr ""
+msgstr "Importeer widget"
 
 #. Orange button in the expanded details section
 msgctxt "widgetgallery.details.widget.update"
 msgid "Update widget"
-msgstr ""
+msgstr "Widget bijwerken"
 
 #. Disabled button in the expanded details section after a widget was imported/updated
 msgctxt "widgetgallery.details.widget.imported"
 msgid "Widget imported!"
-msgstr ""
+msgstr "Widget geïmporteerd!"
 
 #. Alert banner, followed by a technical exception message
 msgctxt "widgetgallery.error"
 msgid "Error:"
-msgstr ""
+msgstr "Fout:"
 
 #. Dialog box title
 msgctxt "widgetgallery.widgetsdetected.dialog.title"
 msgid "Existing widgets detected"
-msgstr ""
+msgstr "Bestaande widgets gevonden"
 
 #. Dialog box message
 msgctxt "widgetgallery.widgetsdetected.dialog.message"
