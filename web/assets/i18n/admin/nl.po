@@ -11,7 +11,7 @@ msgstr ""
 "Last-Translator: openhab-bot <bot@openhab.org>\n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
-"PO-Revision-Date: 2018-04-11 15:11-0400\n"
+"PO-Revision-Date: 2018-04-13 13:40-0400\n"
 
 #. Save button in the dashboard designer
 msgctxt "designer.save"
@@ -36,7 +36,7 @@ msgstr "Voeg enkele widgets toe"
 #. Header of the custom widget section (beware, it might overlap the cogs icon on the right)
 msgctxt "designer.addwidget.customwidgets"
 msgid "Custom widgets"
-msgstr ""
+msgstr "Aangepaste widgets"
 
 #. Open widget gallery
 msgctxt "designer.addwidget.getmore"
@@ -160,7 +160,7 @@ msgstr "Hoofdmenu tegel"
 #. Checkbox label
 msgctxt "dashboard.settings.customwidgets.tile.description"
 msgid "Replace the tile contents by a custom widget"
-msgstr ""
+msgstr "Vervang de inhoud van de tegel door een aangepaste widget"
 
 #. Accordion header
 msgctxt "dashboard.settings.customwidgets.drawer"
