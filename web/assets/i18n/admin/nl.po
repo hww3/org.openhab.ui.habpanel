@@ -11,7 +11,7 @@ msgstr ""
 "Last-Translator: openhab-bot <bot@openhab.org>\n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
-"PO-Revision-Date: 2018-04-13 13:42-0400\n"
+"PO-Revision-Date: 2018-04-13 14:13-0400\n"
 
 #. Save button in the dashboard designer
 msgctxt "designer.save"
@@ -135,7 +135,7 @@ msgstr "Deze opties zijn momenteel experimenteel en voor gevorderde gebruikers! 
 #. Tab header
 msgctxt "dashboard.settings.customwidgets"
 msgid "Custom widgets"
-msgstr ""
+msgstr "Aangepaste widgets"
 
 #. Alert displayed at the top
 msgctxt "dashboard.settings.customwidgets.warning"
@@ -145,12 +145,12 @@ msgstr "Deze functie is momenteel experimenteel en voor gevorderde gebruikers! G
 #. Checkbox header
 msgctxt "dashboard.settings.customwidgets.usecustomwidget"
 msgid "Use a custom widget"
-msgstr ""
+msgstr "Gebruik een aangepaste widget"
 
 #. Dropdown header
 msgctxt "dashboard.settings.customwidgets.customwidget"
 msgid "Custom Widget"
-msgstr ""
+msgstr "Aangepaste Widget"
 
 #. Accordion header
 msgctxt "dashboard.settings.customwidgets.tile"
@@ -165,12 +165,12 @@ msgstr "Vervang de inhoud van de tegel door een aangepaste widget"
 #. Accordion header
 msgctxt "dashboard.settings.customwidgets.drawer"
 msgid "Drawer"
-msgstr ""
+msgstr "Drawer"
 
 #. Checkbox label
 msgctxt "dashboard.settings.customwidgets.drawer.description"
 msgid "Replace the contents of the drawer menu by a custom widget"
-msgstr ""
+msgstr "Vervang de inhoud van het drawer menu door een aangepaste widget"
 
 #. Accordion header
 msgctxt "dashboard.settings.customwidgets.header"
@@ -275,7 +275,7 @@ msgstr ""
 #. Placeholder inside the text box
 msgctxt "settings.panel.name.hint"
 msgid "Replaces 'HABPanel' in the side drawer when set"
-msgstr ""
+msgstr "Vervangt 'HABPanel' in de drawer wanneer deze is ingesteld"
 
 #. Appearance (section header)
 msgctxt "settings.panel.appearance.header"
@@ -315,7 +315,7 @@ msgstr ""
 #. Setting header
 msgctxt "settings.panel.appearance.drawer_heading_image"
 msgid "Drawer heading image (optional)"
-msgstr ""
+msgstr "Drawer rubriek afbeelding (optioneel)"
 
 #. Placeholder inside the text box
 msgctxt "settings.panel.appearance.drawer_heading_image.hint"
@@ -355,7 +355,7 @@ msgstr ""
 #. Custom widgets settings (section header)
 msgctxt "settings.panel.customwidgets.header"
 msgid "Custom Widgets"
-msgstr ""
+msgstr "Aangepaste widgets"
 
 #. Big "manage" button label (a > suffix is added)
 msgctxt "settings.panel.customwidgets.manage"
@@ -535,7 +535,7 @@ msgstr "Importeer uit galerij..."
 #. Dialog box title
 msgctxt "customwidgets.list.add.dialog.title"
 msgid "New custom widget"
-msgstr ""
+msgstr "Maak nieuwe widget"
 
 #. Dialog box message
 msgctxt "customwidgets.list.add.dialog.message"
