@@ -11,7 +11,7 @@ msgstr ""
 "Last-Translator: openhab-bot <bot@openhab.org>\n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
-"PO-Revision-Date: 2018-04-13 13:40-0400\n"
+"PO-Revision-Date: 2018-04-13 13:42-0400\n"
 
 #. Save button in the dashboard designer
 msgctxt "designer.save"
@@ -475,7 +475,7 @@ msgstr "Probleem tijdens het importeren: "
 #. Screen title
 msgctxt "customwidgets.list.header"
 msgid "Custom widgets"
-msgstr ""
+msgstr "Aangepaste widgets"
 
 #. Prefix displayed before the author's name
 msgctxt "customwidgets.list.byauthor"
