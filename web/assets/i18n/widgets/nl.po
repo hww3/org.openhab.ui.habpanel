@@ -11,7 +11,7 @@ msgstr ""
 "Last-Translator: openhab-bot <bot@openhab.org>\n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
-"PO-Revision-Date: 2018-05-30 00:50-0400\n"
+"PO-Revision-Date: 2018-05-30 01:00-0400\n"
 
 #. Common term in widget settings dialogs
 msgctxt "widget.common.min"
@@ -510,7 +510,7 @@ msgstr ""
 #. Checkbox header - appears only if the refresh interval is set
 msgctxt "widget.frame.nosuffix"
 msgid "No cache busting (advanced)"
-msgstr ""
+msgstr "Geen cache busting (geavanceerd)"
 
 #. Checkbox label - appears only if the refresh interval is set
 msgctxt "widget.frame.nosuffix.description"
@@ -530,22 +530,22 @@ msgstr ""
 #. Checkbox label
 msgctxt "widget.frame.frameless.description"
 msgid "Fill to edges"
-msgstr ""
+msgstr "Vullen tot aan de randen"
 
 #. Checkbox header
 msgctxt "widget.frame.label"
 msgid "Label"
-msgstr ""
+msgstr "Label"
 
 #. Checkbox label
 msgctxt "widget.frame.label.description"
 msgid "Hide title label"
-msgstr ""
+msgstr "Verberg label van titel"
 
 #. Display name of the widget (appears in the Add Widget dropdown menu in the designer)
 msgctxt "widget.image"
 msgid "Image"
-msgstr ""
+msgstr "Afbeelding"
 
 #. Description of the widget, displayed in a tooltip when hovering the option in the Add Widget dropdown menu in the designer
 msgctxt "widget.image.description"
@@ -555,12 +555,12 @@ msgstr ""
 #. Settings dialog title
 msgctxt "widget.image.settings.header"
 msgid "Image Settings"
-msgstr ""
+msgstr "Afbeeldinginstellingen"
 
 #. Dropdown header
 msgctxt "widget.image.image_source"
 msgid "Image source"
-msgstr ""
+msgstr "Afbeeldingsbron"
 
 #. Dropdown option
 msgctxt "widget.image.image_source.static"
@@ -570,22 +570,22 @@ msgstr ""
 #. Dropdown option
 msgctxt "widget.image.image_source.item-string"
 msgid "openHAB String Item"
-msgstr ""
+msgstr "openHAB tekstitem"
 
 #. Dropdown option
 msgctxt "widget.image.image_source.item-image"
 msgid "openHAB Image Item"
-msgstr ""
+msgstr "openHAB afbeeldingsitem"
 
 #. Textbox header
 msgctxt "widget.image.refresh_interval"
 msgid "Refresh interval"
-msgstr ""
+msgstr "Interval voor vernieuwen"
 
 #. Radio button label
 msgctxt "widget.image.refresh_interval.seconds"
 msgid "seconds"
-msgstr ""
+msgstr "seconden"
 
 #. Radio button label
 msgctxt "widget.image.refresh_interval.milliseconds"
@@ -820,12 +820,12 @@ msgstr "Tekst"
 #. Color picker header
 msgctxt "widget.knob.misc.background"
 msgid "Background"
-msgstr ""
+msgstr "Achtergrond"
 
 #. Display name of the widget (appears in the Add Widget dropdown menu in the designer)
 msgctxt "widget.label"
 msgid "Label"
-msgstr ""
+msgstr "Label"
 
 #. Description of the widget, displayed in a tooltip when hovering the option in the Add Widget dropdown menu in the designer
 msgctxt "widget.label.description"
