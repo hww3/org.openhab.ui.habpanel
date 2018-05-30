@@ -11,7 +11,7 @@ msgstr ""
 "Last-Translator: openhab-bot <bot@openhab.org>\n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
-"PO-Revision-Date: 2018-05-30 00:50-0400\n"
+"PO-Revision-Date: 2018-05-30 14:40-0400\n"
 
 #. Save button in the dashboard designer
 msgctxt "designer.save"
@@ -210,7 +210,7 @@ msgstr "(geen)"
 #. Appears when focusing the icon textbox when the "Custom icon" iconset is selected
 msgctxt "iconpicker.customicontooltip"
 msgid "Type the name of a <a href='http://docs.openhab.org/configuration/items.html#icons' target='_blank'>registered icon</a> (only SVG supported)<br />Examples: <em>switch</em>, <em>temperature</em> or an additional icon in your configuration's <code>icons/classic</code> folder"
-msgstr ""
+msgstr "Typ de naam van een <a href='http://docs.openhab.org/configuration/items.html#icons' target='_blank'> geregistreerd icoon </a> (alleen SVG ondersteund) <br />Voorbeelden: <em>switch</em>, <em>temperature</em> of een extra icoon in de folder <code>icons/classic</code> van de configuratie"
 
 #. Screen title
 msgctxt "settings.header"
@@ -340,12 +340,12 @@ msgstr "Verberg werkbalk knoppen:"
 #. Checkbox
 msgctxt "settings.panel.appearance.show_clock"
 msgid "Show a clock on the header"
-msgstr ""
+msgstr "Een klok weergeven op de titelbalk"
 
 #. Textbox setting header, only displayed when the "Show a clock on the header" option is checked
 msgctxt "settings.panel.appearance.show_clock.header_format"
 msgid "Header clock format"
-msgstr ""
+msgstr "Opmaak van de klok in de titelbalk"
 
 #. Textbox placeholder, only displayed when the "Show a clock on the header" option is checked
 msgctxt "settings.panel.appearance.show_clock.header_format.hint"
@@ -495,7 +495,7 @@ msgstr "Deze widget is handmatig gedefinieerd in dit panel en kan worden gewijzi
 #. Custom widget context menu entry - clone a globally-provisioned widget
 msgctxt "customwidgets.list.contextmenu.clone"
 msgid "Clone widget..."
-msgstr ""
+msgstr "Dupliceer widget..."
 
 #. Custom widget context menu entry - downloads a widget's .widget.json file
 msgctxt "customwidgets.list.contextmenu.exporttofile"
@@ -595,12 +595,12 @@ msgstr "Widget verwijderen"
 #. Dialog box message
 msgctxt "customwidgets.list.delete.dialog.message"
 msgid "Please confirm you want to delete this widget: "
-msgstr ""
+msgstr "Bevestig dat je de widget wilt verwijderen: "
 
 #. Dialog box title
 msgctxt "customwidgets.list.clone.dialog.title"
 msgid "Clone widget"
-msgstr ""
+msgstr "Dupliceer widget"
 
 #. Dialog box message
 msgctxt "customwidgets.list.clone.dialog.message"
@@ -790,7 +790,7 @@ msgstr "Start"
 #. Suffix displayed after a number, i.e. "24 community contributions"
 msgctxt "widgetgallery.toolbar.communitycontributions"
 msgid "community&nbsp;contributions"
-msgstr ""
+msgstr "community&nbsp;bijdragen"
 
 #. On the right with the sort options
 msgctxt "widgetgallery.toolbar.sortby"
