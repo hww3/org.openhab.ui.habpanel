@@ -11,7 +11,7 @@ msgstr ""
 "Last-Translator: openhab-bot <bot@openhab.org>\n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
-"PO-Revision-Date: 2018-05-30 00:40-0400\n"
+"PO-Revision-Date: 2018-05-30 00:50-0400\n"
 
 #. Save button in the dashboard designer
 msgctxt "designer.save"
@@ -560,7 +560,7 @@ msgstr ""
 #. Prefix of an error message - followed by a technical exception message
 msgctxt "customwidgets.list.import.error"
 msgid "Widget import error: "
-msgstr ""
+msgstr "Fout bij import: "
 
 #. Dialog box title
 msgctxt "customwidgets.list.update.dialog.title"
@@ -925,5 +925,5 @@ msgstr "Bestaande widgets gevonden"
 #. Dialog box message
 msgctxt "widgetgallery.widgetsdetected.dialog.message"
 msgid "Warning: please confirm you wish to update <nbexisting> existing widgets, overwriting any eventual changes made locally! If unsure, cancel and click Show details to review the list of affected widgets."
-msgstr ""
+msgstr "Waarschuwing: Gelieve te bevestigen dat u <nbexisting> bestaande widgets wilt opslaan, dit overschrijft eventuele instellingen lokaal gemaakt! Kies in geval van twijfel annuleren en bekijk de details van de betreffende widgets."
 
