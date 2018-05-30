@@ -11,7 +11,7 @@ msgstr ""
 "Last-Translator: openhab-bot <bot@openhab.org>\n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
-"PO-Revision-Date: 2018-05-30 01:00-0400\n"
+"PO-Revision-Date: 2018-05-30 14:40-0400\n"
 
 #. Common term in widget settings dialogs
 msgctxt "widget.common.min"
@@ -106,12 +106,12 @@ msgstr "Een vaste opdracht verzenden naar een item"
 #. Dropdown option
 msgctxt "widget.button.general.action_type.toggle"
 msgid "Alternate item between 2 states"
-msgstr ""
+msgstr "Een item laten afwisselen tussen twee toestanden"
 
 #. Dropdown option
 msgctxt "widget.button.general.action_type.navigate"
 msgid "Navigate"
-msgstr ""
+msgstr "Navigeren"
 
 #. Textbox header
 msgctxt "widget.button.general.command"
@@ -181,7 +181,7 @@ msgstr "Toon de statuswaarde van een item"
 #. Textbox header
 msgctxt "widget.button.display.value.active_state"
 msgid "Active state"
-msgstr ""
+msgstr "Actieve status"
 
 #. Checkboxes header
 msgctxt "widget.button.display.value.layout"
@@ -265,7 +265,7 @@ msgstr "n3-line-chart (interactief)"
 #. Textbox header
 msgctxt "widget.chart.general.service"
 msgid "Persistence service"
-msgstr ""
+msgstr "Persistence service"
 
 #. Textbox placeholder
 msgctxt "widget.chart.general.service.hint"
@@ -285,22 +285,22 @@ msgstr "Periode"
 #. Tab header
 msgctxt "widget.chart.axis"
 msgid "Axis"
-msgstr ""
+msgstr "As"
 
 #. Section header
 msgctxt "widget.chart.axis.primary"
 msgid "Primary axis (y)"
-msgstr ""
+msgstr "Primaire as (y)"
 
 #. Section header
 msgctxt "widget.chart.axis.secondary"
 msgid "Secondary axis (y2)"
-msgstr ""
+msgstr "Secundaire as (y2)"
 
 #. Checkbox label
 msgctxt "widget.chart.axis.enabled"
 msgid "Enabled"
-msgstr ""
+msgstr "Ingeschakeld"
 
 #. Checkbox label
 msgctxt "widget.chart.axis.includezero"
@@ -310,132 +310,132 @@ msgstr "Nul inbegrepen"
 #. Tab header
 msgctxt "widget.chart.series"
 msgid "Series"
-msgstr ""
+msgstr "Reeks"
 
 #. Radio buttons header
 msgctxt "widget.chart.series.axis"
 msgid "Axis"
-msgstr ""
+msgstr "As"
 
 #. Radio button label
 msgctxt "widget.chart.series.axis.primary"
 msgid "Primary"
-msgstr ""
+msgstr "Primaire"
 
 #. Radio button label
 msgctxt "widget.chart.series.axis.secondary"
 msgid "Secondary"
-msgstr ""
+msgstr "Secundaire"
 
 #. Radio buttons header
 msgctxt "widget.chart.series.display"
 msgid "Display"
-msgstr ""
+msgstr "Tonen"
 
 #. Radio button label
 msgctxt "widget.chart.series.display.line"
 msgid "Line"
-msgstr ""
+msgstr "Lijn"
 
 #. Radio button label
 msgctxt "widget.chart.series.display.area"
 msgid "Area"
-msgstr ""
+msgstr "Gebied"
 
 #. Radio button label
 msgctxt "widget.chart.series.display.dots"
 msgid "Dots"
-msgstr ""
+msgstr "Punten"
 
 #. Checkbox label
 msgctxt "widget.chart.series.liveupdate"
 msgid "Live update (experimental)"
-msgstr ""
+msgstr "Live update (experimenteel)"
 
 #. Checkbox label
 msgctxt "widget.chart.series.liveupdate.fillvalues"
 msgid "Repeat other series' current values on update if necessary"
-msgstr ""
+msgstr "Herhaal de huidige waarden van de andere reeksen bij update indien nodig"
 
 #. Display name of the widget (appears in the Add Widget dropdown menu in the designer)
 msgctxt "widget.clock"
 msgid "Clock"
-msgstr ""
+msgstr "Klok"
 
 #. Description of the widget, displayed in a tooltip when hovering the option in the Add Widget dropdown menu in the designer
 msgctxt "widget.clock.description"
 msgid "A clock widget - displays an analog or digital clock"
-msgstr ""
+msgstr "Een klok widget - toont een analoge of digitale klok"
 
 #. Settings dialog title
 msgctxt "widget.clock.settings.header"
 msgid "Clock Settings"
-msgstr ""
+msgstr "Klok instellingen"
 
 #. Dropdown header
 msgctxt "widget.clock.mode"
 msgid "Mode"
-msgstr ""
+msgstr "Mode"
 
 #. Dropdown option
 msgctxt "widget.clock.mode.analog"
 msgid "Analog"
-msgstr ""
+msgstr "Analoog"
 
 #. Dropdown option
 msgctxt "widget.clock.mode.digital"
 msgid "Digital"
-msgstr ""
+msgstr "Digitaal"
 
 #. Dropdown header
 msgctxt "widget.clock.theme"
 msgid "Analog Theme"
-msgstr ""
+msgstr "Analoog thema"
 
 #. Dropdown option
 msgctxt "widget.clock.theme.light"
 msgid "light"
-msgstr ""
+msgstr "licht"
 
 #. Dropdown option
 msgctxt "widget.clock.theme.dark"
 msgid "dark"
-msgstr ""
+msgstr "donker"
 
 #. Textbox header
 msgctxt "widget.clock.digital_format"
 msgid "Digital Format"
-msgstr ""
+msgstr "Digitaal formaat"
 
 #. Textbox header
 msgctxt "widget.clock.font_size"
 msgid "Digital Font Size"
-msgstr ""
+msgstr "Lettergrootte digitale font"
 
 #. Display name of the widget (appears in the Add Widget dropdown menu in the designer)
 msgctxt "widget.colorpicker"
 msgid "Color Picker"
-msgstr ""
+msgstr "Kleurenkiezer"
 
 #. Description of the widget, displayed in a tooltip when hovering the option in the Add Widget dropdown menu in the designer
 msgctxt "widget.colorpicker.description"
 msgid "Displays an color picker"
-msgstr ""
+msgstr "Toont een kleurenkiezer"
 
 #. Settings dialog title
 msgctxt "widget.colorpicker.settings.header"
 msgid "Color Picker Settings"
-msgstr ""
+msgstr "Kleurkiezer instellingen"
 
 #. Dropdown header
 msgctxt "widget.colorpicker.type"
 msgid "Type"
-msgstr ""
+msgstr "Type"
 
 #. Dropdown option
 msgctxt "widget.colorpicker.type.hsl"
 msgid "HSL Sliders"
-msgstr ""
+msgstr "HSL sliders"
 
 #. Dropdown option
 msgctxt "widget.colorpicker.type.ackolor"
@@ -445,7 +445,7 @@ msgstr "aCKolor style (modal picker)"
 #. Checkbox label
 msgctxt "widget.colorpicker.blur_background"
 msgid "Apply blurring effect to background"
-msgstr ""
+msgstr "Vervaag de achtergrond"
 
 #. Displayed below the checkbox in small text
 msgctxt "widget.colorpicker.blur_background.warning"
@@ -455,7 +455,7 @@ msgstr ""
 #. Display name of the widget (appears in the Add Widget dropdown menu in the designer)
 msgctxt "widget.dummy"
 msgid "Dummy"
-msgstr ""
+msgstr "Dummy"
 
 #. Description of the widget, displayed in a tooltip when hovering the option in the Add Widget dropdown menu in the designer
 msgctxt "widget.dummy.description"
@@ -465,17 +465,17 @@ msgstr "Een dummy widget - toont de waarde van een openHAB item"
 #. Settings dialog title
 msgctxt "widget.dummy.settings.header"
 msgid "Dummy Settings"
-msgstr ""
+msgstr "Dummy Instellingen"
 
 #. Checkboxes header
 msgctxt "widget.dummy.layout"
 msgid "Layout"
-msgstr ""
+msgstr "Opmaak"
 
 #. Display name of the widget (appears in the Add Widget dropdown menu in the designer)
 msgctxt "widget.frame"
 msgid "Frame"
-msgstr ""
+msgstr "Kader"
 
 #. Description of the widget, displayed in a tooltip when hovering the option in the Add Widget dropdown menu in the designer
 msgctxt "widget.frame.description"
@@ -485,7 +485,7 @@ msgstr ""
 #. Settings dialog title
 msgctxt "widget.frame.settings.header"
 msgid "Frame Settings"
-msgstr ""
+msgstr "Instellingen kader"
 
 #. Dropdown header
 msgctxt "widget.frame.url_source"
@@ -505,7 +505,7 @@ msgstr ""
 #. Textbox header
 msgctxt "widget.frame.refresh_interval"
 msgid "Refresh interval (seconds)"
-msgstr ""
+msgstr "Vernieuwingsinterval (seconden)"
 
 #. Checkbox header - appears only if the refresh interval is set
 msgctxt "widget.frame.nosuffix"
@@ -520,12 +520,12 @@ msgstr "Geen URL suffix toevoegen om te vermijden dat gecachede afbeeldingen geb
 #. Color picker header
 msgctxt "widget.frame.background_color"
 msgid "Frame background color"
-msgstr ""
+msgstr "Kader achtergrondkleur"
 
 #. Checkbox header
 msgctxt "widget.frame.frameless"
 msgid "Frameless"
-msgstr ""
+msgstr "Zonder kader"
 
 #. Checkbox label
 msgctxt "widget.frame.frameless.description"
@@ -550,7 +550,7 @@ msgstr "Afbeelding"
 #. Description of the widget, displayed in a tooltip when hovering the option in the Add Widget dropdown menu in the designer
 msgctxt "widget.image.description"
 msgid "Displays an image (not necessarily from openHAB)"
-msgstr ""
+msgstr "Toont een afbeelding (niet noodzakelijk van openHAB)"
 
 #. Settings dialog title
 msgctxt "widget.image.settings.header"
@@ -565,7 +565,7 @@ msgstr "Afbeeldingsbron"
 #. Dropdown option
 msgctxt "widget.image.image_source.static"
 msgid "Static image URL"
-msgstr ""
+msgstr "Statische URL van afbeelding"
 
 #. Dropdown option
 msgctxt "widget.image.image_source.item-string"
@@ -655,7 +655,7 @@ msgstr ""
 #. Section header
 msgctxt "widget.knob.bartrack.angles"
 msgid "Angles (°)"
-msgstr ""
+msgstr "Hoeken (°)"
 
 #. Textbox header (small)
 msgctxt "widget.knob.bartrack.angles.start"
@@ -840,7 +840,7 @@ msgstr ""
 #. Preview widget label in the top-right corner
 msgctxt "widget.label.preview"
 msgid "Preview"
-msgstr ""
+msgstr "Voorvertoning"
 
 #. Color picker label
 msgctxt "widget.label.background_color"
@@ -935,7 +935,7 @@ msgstr "Geen vierkante tegels"
 #. Header
 msgctxt "widget.selection.selection_options"
 msgid "Selection options"
-msgstr ""
+msgstr "Keuzemogelijkheden"
 
 #. Checkbox label (small)
 msgctxt "widget.selection.selection_options.no_highlight"
@@ -1075,7 +1075,7 @@ msgstr "{{customwidget_name}} instellingen"
 #. Checkbox label (small)
 msgctxt "widget.template.dontwrap"
 msgid "Don't wrap in container"
-msgstr ""
+msgstr "Niet laten teruglopen in container"
 
 #. Checkbox label (small)
 msgctxt "widget.template.nobackground"
@@ -1100,27 +1100,27 @@ msgstr ""
 #. Menu entry (top-right above the code editor)
 msgctxt "widget.template.communitysupport"
 msgid "Community support"
-msgstr ""
+msgstr "Community-ondersteuning"
 
 #. Menu entry (top-right above the code editor)
 msgctxt "widget.template.knowledgebase"
 msgid "Knowledge base"
-msgstr ""
+msgstr "Kennisbank"
 
 #. Display name of the widget (appears in the Add Widget dropdown menu in the designer)
 msgctxt "widget.timeline"
 msgid "Timeline"
-msgstr ""
+msgstr "Tijdlijn"
 
 #. Description of the widget, displayed in a tooltip when hovering the option in the Add Widget dropdown menu in the designer
 msgctxt "widget.timeline.description"
 msgid "Displays a timeline of several items"
-msgstr ""
+msgstr "Toont een tijdlijn van verschillende items"
 
 #. Settings dialog title
 msgctxt "widget.timeline.settings.header"
 msgid "Timeline Settings"
-msgstr ""
+msgstr "Tijdlijn Instellingen"
 
 #. Textbox header
 msgctxt "widget.timeline.general.service"
@@ -1130,25 +1130,25 @@ msgstr "Persistence service"
 #. Textbox placeholder
 msgctxt "widget.timeline.general.service.hint"
 msgid "rrd4j, mysql, influxdb... Leave blank for default"
-msgstr ""
+msgstr "rrd4j, mysql, influxdb... Laat leeg voor de standaardwaarde"
 
 #. Dropdown placeholder
 msgctxt "widget.timeline.general.period"
 msgid "Period"
-msgstr ""
+msgstr "Periode"
 
 #. Tab header
 msgctxt "widget.timeline.colors"
 msgid "Colors"
-msgstr ""
+msgstr "Kleuren"
 
 #. Accordion header (followed by the state value)
 msgctxt "widget.timeline.colors.state"
 msgid "State"
-msgstr ""
+msgstr "Status"
 
 #. Tab header
 msgctxt "widget.timeline.series"
 msgid "Series"
-msgstr ""
+msgstr "Reeksen"
 
