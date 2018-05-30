@@ -11,7 +11,7 @@ msgstr ""
 "Last-Translator: openhab-bot <bot@openhab.org>\n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
-"PO-Revision-Date: 2018-05-30 00:30-0400\n"
+"PO-Revision-Date: 2018-05-30 00:40-0400\n"
 
 #. Save button in the dashboard designer
 msgctxt "designer.save"
@@ -120,7 +120,7 @@ msgstr "Klik feedback"
 #. Checkbox label
 msgctxt "dashboard.settings.tile.click_feedback.description"
 msgid "Don't brighten tile on click/tap"
-msgstr ""
+msgstr "Tegel bij klik/tap niet oplichten"
 
 #. Tab header
 msgctxt "dashboard.settings.advanced"
@@ -235,12 +235,12 @@ msgstr "De configuratie is alleen voor deze browser en dit apparaat opgeslagen. 
 #. Link below the "local storage" option
 msgctxt "settings.storage.localstorage.edit"
 msgid "Edit the local panel configuration (experts only)"
-msgstr ""
+msgstr "Bewerk de lokale panel configuratie (enkel experts)"
 
 #. Prefix of a panel configuration before its name
 msgctxt "settings.storage.panelconfiguration"
 msgid "Panel configuration:"
-msgstr ""
+msgstr "Panel configuratie:"
 
 #. Prefix of the last synced line, before the date
 msgctxt "settings.storage.panelconfiguration.lastsynced"
@@ -255,22 +255,22 @@ msgstr "Bevat:"
 #. Link to create a panel configuration from the current configuration
 msgctxt "settings.storage.panelconfiguration.save"
 msgid "Save the current configuration to a new panel configuration"
-msgstr ""
+msgstr "Sla de huidige configuratie op naar een nieuwe panel configuratie"
 
 #. Title of the dialog box when creating a new panel configuration
 msgctxt "settings.storage.panelconfiguration.dialog.title"
 msgid "New panel configuration"
-msgstr ""
+msgstr "Nieuwe panel configuratie"
 
 #. Message of the dialog box when creating a new panel configuration
 msgctxt "settings.storage.panelconfiguration.dialog.message"
 msgid "Please choose a name for the new panel configuration (letters and digits only please):"
-msgstr ""
+msgstr "Kies een naam voor de nieuwe panel configuratie (alleen letters en cijfers):"
 
 #. Panel name (section header)
 msgctxt "settings.panel.name"
 msgid "Panel name"
-msgstr ""
+msgstr "Panel naam"
 
 #. Placeholder inside the text box
 msgctxt "settings.panel.name.hint"
@@ -290,27 +290,27 @@ msgstr "Thema"
 #. Alert banner displayed when the browsers doesn't support themes (CSS variables)
 msgctxt "settings.panel.appearance.theme.not_supported"
 msgid "Themes are not compatible with this browser."
-msgstr ""
+msgstr "Themes zijn niet compatibel met deze browser."
 
 #. Setting header
 msgctxt "settings.panel.appearance.additional_stylesheet"
 msgid "Additional stylesheet (optional)"
-msgstr ""
+msgstr "Extra stylesheet (optioneel)"
 
 #. Placeholder inside the text box
 msgctxt "settings.panel.appearance.additional_stylesheet.hint"
 msgid "Relative URL only; example: /static/example.css"
-msgstr ""
+msgstr "Alleen relatieve URL; voorbeeld: /static/example.css"
 
 #. Setting header
 msgctxt "settings.panel.appearance.background_image"
 msgid "Background image (optional)"
-msgstr ""
+msgstr "Achtergrondafbeelding (optioneel)"
 
 #. Placeholder inside the text box
 msgctxt "settings.panel.appearance.background_image.hint"
 msgid "Example: //source.unsplash.com/random"
-msgstr ""
+msgstr "Voorbeeld: //source.unsplash.com/random"
 
 #. Setting header
 msgctxt "settings.panel.appearance.drawer_heading_image"
@@ -320,12 +320,12 @@ msgstr "Drawer rubriek afbeelding (optioneel)"
 #. Placeholder inside the text box
 msgctxt "settings.panel.appearance.drawer_heading_image.hint"
 msgid "Example: //via.placeholder.com/265x95"
-msgstr ""
+msgstr "Voorbeeld: //via.placeholder.com/265x95"
 
 #. Checkbox
 msgctxt "settings.panel.appearance.prevent_scrolling"
 msgid "Prevent scrolling (when not editing)"
-msgstr ""
+msgstr "Voorkom scrollen (wanneer je niet bewerkt)"
 
 #. Checkbox
 msgctxt "settings.panel.appearance.hide_drawer_footer"
@@ -360,22 +360,22 @@ msgstr "Aangepaste widgets"
 #. Big "manage" button label (a > suffix is added)
 msgctxt "settings.panel.customwidgets.manage"
 msgid "Manage"
-msgstr ""
+msgstr "Beheren"
 
 #. Voice support (section header) - formerly (<=2.2.0) : "Voice feedback"
 msgctxt "settings.panel.voicesupport.header"
 msgid "Voice Support"
-msgstr ""
+msgstr "Spraakondersteuning"
 
 #. Dropdown header - formerly (<=2.2.0) : "Voice"
 msgctxt "settings.panel.voicesupport.speech_synthesis_voice"
 msgid "Speech synthesis voice"
-msgstr ""
+msgstr "Spraaksoftware stem"
 
 #. Displayed below the voice dropdown
 msgctxt "settings.panel.voicesupport.speech_synthesis_voice.hint"
 msgid "Available voices depend on the operating system and browser environments."
-msgstr ""
+msgstr "Beschikbare stemmen zijn afhankelijk van het besturingssysteem en browser omgevingen."
 
 #. Test button below the voice selection - make the voice say "habpanel 1 2 3"
 msgctxt "settings.panel.voicesupport.speech_synthesis_voice.test"
@@ -385,22 +385,22 @@ msgstr "Test"
 #. Checkbox
 msgctxt "settings.panel.voicesupport.floating_speech_button"
 msgid "Display a floating speech button at the bottom of the screen"
-msgstr ""
+msgstr "Toon een zwevende stem knop aan de onderkant van het scherm"
 
 #. Dropdown header
 msgctxt "settings.panel.voicesupport.speech_synthesis_item"
 msgid "Speak the new value of the following item when it changes:"
-msgstr ""
+msgstr "Zeg de nieuwe waarde van het item wanneer het wijzigt:"
 
 #. Section header
 msgctxt "settings.panel.dashboard_control.header"
 msgid "Switch dashboard with item value"
-msgstr ""
+msgstr "Wissel dashboard met waarde van item"
 
 #. Dropdown header
 msgctxt "settings.panel.dashboard_control.item"
 msgid "When this item changes to a dashboard's name, switch to it:"
-msgstr ""
+msgstr "Wanneer dit item verandert in een dashboard naam, maak deze actief:"
 
 #. Local panel configuration editor header
 msgctxt "settings.localconfig.title"
@@ -410,7 +410,7 @@ msgstr ""
 #. Displayed in a tooltip when hovering the exclamation mark in the local panel config editor
 msgctxt "settings.localconfig.warning"
 msgid "This is the raw configuration object representing your current configuration. Be careful while editing it by hand!"
-msgstr ""
+msgstr "Dit is het ruwe configuratieobject dat de huidige configuratie vertegenwoordigt. Wees voorzichtig met het handmatig aanpassen ervan!"
 
 #. Blue button
 msgctxt "settings.localconfig.import"
@@ -490,7 +490,7 @@ msgstr ""
 #. Displayed in a tooltip when hovering the icon indicating a user defined widget
 msgctxt "customwidgets.list.userdefined.hint"
 msgid "This widget has been defined manually in this panel configuration and can be modified."
-msgstr ""
+msgstr "Deze widget is handmatig gedefinieerd in dit panel en kan worden gewijzigd."
 
 #. Custom widget context menu entry - clone a globally-provisioned widget
 msgctxt "customwidgets.list.contextmenu.clone"
@@ -580,12 +580,12 @@ msgstr "Widget <id> van <source_url> kon niet worden bijgewerkt: geen sjabloon g
 #. Alert banner message
 msgctxt "customwidgets.list.update.error.unknown"
 msgid "Couldn't update widget <id> from <source_url>: "
-msgstr ""
+msgstr "Kan widget <id> van <source_url> niet updaten: "
 
 #. Alert banner message
 msgctxt "customwidgets.list.update.success"
 msgid "Widget <id> updated successfully from <source_url>"
-msgstr ""
+msgstr "Widget <id> van <source_url> is succesvol bijgewerkt"
 
 #. Dialog box title
 msgctxt "customwidgets.list.delete.dialog.title"
@@ -715,7 +715,7 @@ msgstr "Titel"
 #. Tooltip displayed when hovering the help icon alongside the ID field
 msgctxt "customwidgets.designer.settings.config.id.hint"
 msgid "Enter a JSON friendly key for this setting - ideally, use only lowercase letters, digits and underscores. Examples: my_setting, first_item, text_size, font_color"
-msgstr ""
+msgstr "Geef een JSON vriendelijke sleutel op, bij voorkeur in kleine letters, met cijfers en underscores. Bijvoorbeeld: my_setting, first_item, text_size, font_color"
 
 #. Textbox header
 msgctxt "customwidgets.designer.settings.config.label"
@@ -770,7 +770,7 @@ msgstr "Importeer Galerie Item"
 #. Alert banner message
 msgctxt "widgetgallery.warning.githubratelimit"
 msgid "Warning: rate limiting on the GitHub API will temporarily block further requests!"
-msgstr ""
+msgstr "Waarschuwing: limieten op de API van GitHub blokkeren tijdelijk aanvullende verzoeken!"
 
 #. Alert banner message (2nd part)
 msgctxt "widgetgallery.warning.githubratelimit.wait"
@@ -890,7 +890,7 @@ msgstr "bevat de volgende widgets; u kunt hen individueel importeren:"
 #. Explanation in the expanded details section
 msgctxt "widgetgallery.details.widget.hint.nowidgets"
 msgid "No widgets were found (*.widget.json files)! Please report this."
-msgstr ""
+msgstr "Geen widgets gevonden (*. widget.json bestanden)! Gelieve dit te melden."
 
 #. Explanation in the expanded details section
 msgctxt "widgetgallery.details.widget.hint.checkrepo"
