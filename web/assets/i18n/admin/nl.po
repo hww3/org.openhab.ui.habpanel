@@ -11,7 +11,7 @@ msgstr ""
 "Last-Translator: openhab-bot <bot@openhab.org>\n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
-"PO-Revision-Date: 2018-04-13 14:13-0400\n"
+"PO-Revision-Date: 2018-05-30 00:30-0400\n"
 
 #. Save button in the dashboard designer
 msgctxt "designer.save"
@@ -180,7 +180,7 @@ msgstr "Dashboard titel"
 #. Checkbox label
 msgctxt "dashboard.settings.customwidgets.header.description"
 msgid "Replace the contents of the dashboard header by a custom widget"
-msgstr ""
+msgstr "Vervang de inhoud van de dashboard koptekst door een aangepaste widget"
 
 #. Displayed in the item picker when no item selected
 msgctxt "itempicker.placeholder"
@@ -280,7 +280,7 @@ msgstr "Vervangt 'HABPanel' in de drawer wanneer deze is ingesteld"
 #. Appearance (section header)
 msgctxt "settings.panel.appearance.header"
 msgid "Appearance"
-msgstr ""
+msgstr "Uiterlijk"
 
 #. Dropown menu header
 msgctxt "settings.panel.appearance.theme"
@@ -330,7 +330,7 @@ msgstr ""
 #. Checkbox
 msgctxt "settings.panel.appearance.hide_drawer_footer"
 msgid "Hide the drawer's footer"
-msgstr ""
+msgstr "Verberg de voettekst"
 
 #. Checkbox
 msgctxt "settings.panel.appearance.hide_toolbar_buttons"
@@ -350,7 +350,7 @@ msgstr ""
 #. Textbox placeholder, only displayed when the "Show a clock on the header" option is checked
 msgctxt "settings.panel.appearance.show_clock.header_format.hint"
 msgid "Default: shortTime, use AngularJS date format"
-msgstr ""
+msgstr "Standaard: shortTime, gebruik AngularJS date formaat"
 
 #. Custom widgets settings (section header)
 msgctxt "settings.panel.customwidgets.header"
