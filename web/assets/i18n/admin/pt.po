@@ -11,12 +11,12 @@ msgstr ""
 "Last-Translator: openhab-bot <bot@openhab.org>\n"
 "Language-Team: Portuguese, Brazilian\n"
 "Language: pt_BR\n"
-"PO-Revision-Date: 2018-02-26 11:23-0500\n"
+"PO-Revision-Date: 2018-05-31 19:10-0400\n"
 
 #. Save button in the dashboard designer
 msgctxt "designer.save"
 msgid "Save"
-msgstr "Gravar"
+msgstr "Salvar"
 
 #. Run button in the dashboard designer
 msgctxt "designer.run"
@@ -26,12 +26,12 @@ msgstr "Executar"
 #. Add widget button in the dashboard designer
 msgctxt "designer.addwidget"
 msgid "Add Widget"
-msgstr "Criar Widget"
+msgstr "Adicionar widget"
 
 #. Tutorial text with arrow when on an empty dashboard
 msgctxt "designer.addwidget.hint"
 msgid "Add some widgets"
-msgstr "Criar alguns widgets"
+msgstr "Adicionar alguns widgets"
 
 #. Header of the custom widget section (beware, it might overlap the cogs icon on the right)
 msgctxt "designer.addwidget.customwidgets"
@@ -61,7 +61,7 @@ msgstr "Copiar/mover para..."
 #. Delete option in a widget placeholder context menu (3-dot icon)
 msgctxt "designer.contextmenu.delete"
 msgid "Delete"
-msgstr "Eliminar"
+msgstr "Excluir"
 
 #. Title of copy/move widget dialog
 msgctxt "designer.copymove.header"
@@ -86,16 +86,16 @@ msgstr "Copiar"
 #. Default name of a newly created widget
 msgctxt "designer.newwidget.defaultname"
 msgid "New Widget"
-msgstr "Novo widget"
+msgstr "Novo Widget"
 
 msgctxt "designer.serversavefailed"
 msgid "Server save failed!"
-msgstr "Falha ao gravar no servidor!"
+msgstr "Falha ao salvar no servidor!"
 
 #. Title of the dashboard settings dialog
 msgctxt "dashboard.settings.dialog.title"
 msgid "Dashboard Settings"
-msgstr "Definições do painel"
+msgstr "Configurações do painel"
 
 #. Tab header
 msgctxt "dashboard.settings.tile"
@@ -110,7 +110,7 @@ msgstr "URL da imagem de fundo"
 #. Color picker header
 msgctxt "dashboard.settings.tile.title_text_color"
 msgid "Title Text color"
-msgstr "Cor do texto do título"
+msgstr "Cor de texto do título"
 
 #. Checkbox header
 msgctxt "dashboard.settings.tile.click_feedback"
@@ -120,7 +120,7 @@ msgstr "Reação ao clique"
 #. Checkbox label
 msgctxt "dashboard.settings.tile.click_feedback.description"
 msgid "Don't brighten tile on click/tap"
-msgstr "Não realçar caixa quando clicado /premido"
+msgstr "Não realçar caixa quando clicado/pressionado"
 
 #. Tab header
 msgctxt "dashboard.settings.advanced"
@@ -130,7 +130,7 @@ msgstr "Avançado"
 #. Alert display at the top
 msgctxt "dashboard.settings.advanced.warning"
 msgid "These options are currently experimental, unstable or targeted at advanced users! Use at your own risk."
-msgstr "Estas opções são experimentais, instáveis ou vocacionadas para utilizadores avançados! Usa por tua conta e risco."
+msgstr "Estas opções são experimentais, instáveis ou para usuários avançados! Use por sua conta e risco."
 
 #. Tab header
 msgctxt "dashboard.settings.customwidgets"
@@ -140,7 +140,7 @@ msgstr "Widgets personalizados"
 #. Alert displayed at the top
 msgctxt "dashboard.settings.customwidgets.warning"
 msgid "This feature is currently experimental, and targeted at advanced users! Use at your own risk."
-msgstr "Esta opção é experimental, instável ou vocacionada para utilizadores avançados! Usa por tua conta e risco."
+msgstr "Opção ainda em teste, para usuários avançados! Use por sua conta e risco."
 
 #. Checkbox header
 msgctxt "dashboard.settings.customwidgets.usecustomwidget"
@@ -190,7 +190,7 @@ msgstr "Procurar ou selecionar um item openHAB"
 #. Icon picker dropdown placeholder
 msgctxt "iconpicker.selecticonset"
 msgid "Select icon set"
-msgstr "Selecionar grupo de ícones"
+msgstr "Selecione um ícone"
 
 #. Icon picker dropdown entry
 msgctxt "iconpicker.customicon"
@@ -200,7 +200,7 @@ msgstr "Ícone personalizado"
 #. Icon picker dropdown entry
 msgctxt "iconpicker.customurl"
 msgid "Custom URL"
-msgstr "URL personalizado"
+msgstr "URL personalizada"
 
 #. Icon picker dropdown entry
 msgctxt "iconpicker.none"
@@ -210,12 +210,12 @@ msgstr "(nenhum)"
 #. Appears when focusing the icon textbox when the "Custom icon" iconset is selected
 msgctxt "iconpicker.customicontooltip"
 msgid "Type the name of a <a href='http://docs.openhab.org/configuration/items.html#icons' target='_blank'>registered icon</a> (only SVG supported)<br />Examples: <em>switch</em>, <em>temperature</em> or an additional icon in your configuration's <code>icons/classic</code> folder"
-msgstr "Insire o nome de um <a href='http://docs.openhab.org/configuration/items.html#icons' target='_blank'> ícone registado </a> (apenas SVG suportados) <br/> Exemplos: <em>switch</em>, <em>temperature</em> ou um outro ícone da tua configuração que esteja na pasta <code>icons/classic</code>"
+msgstr "Insira o nome de um <a href='http://docs.openhab.org/configuration/items.html#icons' target='_blank'> ícone registado </a> (apenas SVG suportados) <br/> Exemplos: <em>switch</em>, <em>temperature</em> ou um outro ícone da tua configuração que esteja na pasta <code>icons/classic</code>"
 
 #. Screen title
 msgctxt "settings.header"
 msgid "Settings"
-msgstr "Definições"
+msgstr "Configurações"
 
 #. Header of the storage section
 msgctxt "settings.storage.header"
@@ -255,7 +255,7 @@ msgstr "Contém:"
 #. Link to create a panel configuration from the current configuration
 msgctxt "settings.storage.panelconfiguration.save"
 msgid "Save the current configuration to a new panel configuration"
-msgstr "Gravar a configuração atual numa nova configuração de painel"
+msgstr "Salvar a configuração atual numa nova configuração de painel"
 
 #. Title of the dialog box when creating a new panel configuration
 msgctxt "settings.storage.panelconfiguration.dialog.title"
