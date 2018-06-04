@@ -11,47 +11,47 @@ msgstr ""
 "Last-Translator: openhab-bot <bot@openhab.org>\n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
-"PO-Revision-Date: 2018-01-18 13:31-0500\n"
+"PO-Revision-Date: 2018-06-04 16:21-0400\n"
 
 #. Common term
 msgctxt "OK"
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #. Common term
 msgctxt "Cancel"
 msgid "Cancel"
-msgstr ""
+msgstr "Mégsem"
 
 #. Common term
 msgctxt "Delete"
 msgid "Delete"
-msgstr ""
+msgstr "Törlés"
 
 #. Common term
 msgctxt "Save"
 msgid "Save"
-msgstr ""
+msgstr "Mentés"
 
 #. Common term
 msgctxt "Name"
 msgid "Name"
-msgstr ""
+msgstr "Név"
 
 #. Common term
 msgctxt "Icon"
 msgid "Icon"
-msgstr ""
+msgstr "Ikon"
 
 #. Common term (plural)
 msgctxt "Icons"
 msgid "Icons"
-msgstr ""
+msgstr "Icon-ok"
 
 #. Common term
 msgctxt "Backdrop Icon"
 msgid "Backdrop Icon"
-msgstr ""
+msgstr "Háttér icon"
 
 #. Common term
 msgctxt "Size"
