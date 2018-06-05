@@ -11,22 +11,22 @@ msgstr ""
 "Last-Translator: openhab-bot <bot@openhab.org>\n"
 "Language-Team: Portuguese, Brazilian\n"
 "Language: pt_BR\n"
-"PO-Revision-Date: 2018-02-26 12:04-0500\n"
+"PO-Revision-Date: 2018-06-05 09:12-0400\n"
 
 #. Common term in widget settings dialogs
 msgctxt "widget.common.min"
 msgid "Min"
-msgstr "Mín."
+msgstr "Mín"
 
 #. Common term in widget settings dialogs
 msgctxt "widget.common.max"
 msgid "Max"
-msgstr "Máx."
+msgstr "Máx"
 
 #. Common term in widget settings dialogs
 msgctxt "widget.common.step"
 msgid "Step"
-msgstr "Intervalo"
+msgstr "Passo"
 
 #. Common term in widget settings dialogs
 msgctxt "widget.common.unit"
@@ -41,12 +41,12 @@ msgstr "Formato"
 #. Common option label in widget settings dialogs
 msgctxt "widget.common.format.useserverprovided"
 msgid "Use server-provided format if available"
-msgstr "Usa o formato fornecido pelo servidor, se disponível"
+msgstr "Usar o formato fornecido pelo servidor, se disponível"
 
 #. Common option label in widget settings dialogs
 msgctxt "widget.common.dontwrap"
 msgid "Value right of label"
-msgstr "Valor à direita da rótulo"
+msgstr "Valor à direita do rótulo"
 
 #. Common option label in widget settings dialogs
 msgctxt "widget.common.backdrop_center"
