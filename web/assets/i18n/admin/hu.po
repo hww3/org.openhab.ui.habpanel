@@ -11,7 +11,7 @@ msgstr ""
 "Last-Translator: openhab-bot <bot@openhab.org>\n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
-"PO-Revision-Date: 2018-06-14 04:12-0400\n"
+"PO-Revision-Date: 2018-06-14 04:21-0400\n"
 
 #. Save button in the dashboard designer
 msgctxt "designer.save"
@@ -540,12 +540,12 @@ msgstr "Új egyéni widget"
 #. Dialog box message
 msgctxt "customwidgets.list.add.dialog.message"
 msgid "Please choose a short name as an identifier for your widget (for example, 'window-shutter=up-down-button, 'weather-forecast' etc.). If a widget with the same identifier already exists, it will be replaced!"
-msgstr ""
+msgstr "Válasszon egy rövid nevet a widget-je azonosítójának (például, 'redőny = fel-le-gomb, 'Időjárás' stb.). Ha már létezik ugyanezzel az azonosítóval egy widget, akkor azt felülírja!"
 
 #. Error message, displayed in an alert box
 msgctxt "customwidgets.list.import.nojson"
 msgid "The file must have a .json extension!"
-msgstr ""
+msgstr "A fájl-nak .json kiterjesztésűnek kell lennie!"
 
 #. Dialog box title
 msgctxt "customwidgets.list.import.dialog.title"
@@ -555,7 +555,7 @@ msgstr "Widget importálása"
 #. Dialog box message
 msgctxt "customwidgets.list.import.dialog.message"
 msgid "Please confirm or change the identifier of your widget (avoid spaces and special chars!). If a widget with the same identifier already exists, it will be replaced!"
-msgstr ""
+msgstr "Kérem erősítse meg vagy módosítsa a widget-je azonosítóját (ne használjon szóközöket és speciális karaktereket!). Ha egy widget már létezik ugyanezzel az azonosítóval, akkor azt felülírja!"
 
 #. Prefix of an error message - followed by a technical exception message
 msgctxt "customwidgets.list.import.error"
@@ -570,22 +570,22 @@ msgstr "Widget frissítése"
 #. Dialog box message
 msgctxt "customwidgets.list.update.dialog.message"
 msgid "This will update widget <id> from <source_url>. Any changes you made will be overwritten! Continue?"
-msgstr ""
+msgstr "Ez frissíteni fogja a widget <id> a <source_url>-ből. Minden módosítás felülíródik! Folytatja?"
 
 #. Alert banner message
 msgctxt "customwidgets.list.update.error.notemplatefound"
 msgid "Couldn't update widget <id> from <source_url>: no template found"
-msgstr ""
+msgstr "Nem tudtam frissíteni a widget <id> a <source_url>-ből: nem található a sablon"
 
 #. Alert banner message
 msgctxt "customwidgets.list.update.error.unknown"
 msgid "Couldn't update widget <id> from <source_url>: "
-msgstr ""
+msgstr "Nem tudtam frissíteni a widget <id> a <source_url>-ből: "
 
 #. Alert banner message
 msgctxt "customwidgets.list.update.success"
 msgid "Widget <id> updated successfully from <source_url>"
-msgstr ""
+msgstr "Az <id> widget-et sikeresen frissítettük a <source_url> -ről"
 
 #. Dialog box title
 msgctxt "customwidgets.list.delete.dialog.title"
@@ -605,7 +605,7 @@ msgstr "Widget másolása"
 #. Dialog box message
 msgctxt "customwidgets.list.clone.dialog.message"
 msgid "This will clone the globally provisioned widget: <id> to be modified as part of the panel configuration. Enter an unique identifier below - it must be different from the widget being cloned, and should avoid spaces and special chars. If an user-defined widget with the same identifier already exists, it will be replaced!"
-msgstr ""
+msgstr "Ez klónozza a globálisan hozzáadott widget-t: <id>, módosítandó a panel beállításainak részeként. Írjon be egy egyedi azonosítót - különböznie kell a widget-től, ami klónozva lett, és nem lehet benne szóköz és speciális karakter. Ha egy felhasználó által definiált widget ugyanezzel az azonosítóval már létezik, akkor felülírja!"
 
 #. Screen title, followed by the widget name - beware of size!
 msgctxt "customwidgets.designer.heading"
@@ -660,7 +660,7 @@ msgstr "Konfiguráció beállítása"
 #. Displayed in small text below the section header, with an information icon
 msgctxt "customwidgets.designer.settings.config.warning"
 msgid "Beware: always bear in mind instances of this widget might be existing when altering configuration settings!"
-msgstr ""
+msgstr "Vigyázat: mindig tartsa észben, hogy ezen widget példányai létezhetnek amikor a konfigurációs beállítások változnak!"
 
 #. Button label
 msgctxt "customwidgets.designer.settings.config.add"
@@ -715,7 +715,7 @@ msgstr "Irány"
 #. Tooltip displayed when hovering the help icon alongside the ID field
 msgctxt "customwidgets.designer.settings.config.id.hint"
 msgid "Enter a JSON friendly key for this setting - ideally, use only lowercase letters, digits and underscores. Examples: my_setting, first_item, text_size, font_color"
-msgstr ""
+msgstr "Adjon meg JSON barát kulcsot ehhez a beállításhoz - használjon csak kisbetűket, számokat és aláhúzást. Például: my_setting, first_item, text_size, font_color"
 
 #. Textbox header
 msgctxt "customwidgets.designer.settings.config.label"
@@ -745,7 +745,7 @@ msgstr "Leírás"
 #. Banner displayed when selecting the Icon type for the settings, followed by the defined settings themselves
 msgctxt "customwidgets.designer.settings.config.icon.hint"
 msgid "This will define 2 config elements:"
-msgstr ""
+msgstr "Ez 2 konfigurációs elemet fog definiálni:"
 
 #. Tab header
 msgctxt "customwidgets.designer.preview"
@@ -770,7 +770,7 @@ msgstr "Galéria elem importálása"
 #. Alert banner message
 msgctxt "widgetgallery.warning.githubratelimit"
 msgid "Warning: rate limiting on the GitHub API will temporarily block further requests!"
-msgstr ""
+msgstr "Figyelem: sebesség korlátozás a GitHub API-n ideiglenesen blokkolja a további kéréseket!"
 
 #. Alert banner message (2nd part)
 msgctxt "widgetgallery.warning.githubratelimit.wait"
@@ -885,17 +885,17 @@ msgstr "repository"
 #. 3. Suffix of the explanation in the expanded details section
 msgctxt "widgetgallery.details.widget.hint.suffix"
 msgid "contains the following widgets; you can import them individually:"
-msgstr ""
+msgstr "tartalmazza a következő widget-eket; importálhatja őket egyesével:"
 
 #. Explanation in the expanded details section
 msgctxt "widgetgallery.details.widget.hint.nowidgets"
 msgid "No widgets were found (*.widget.json files)! Please report this."
-msgstr ""
+msgstr "Nincsenek widget-ek (*. widget.json fájlok)! Kérem, jelentse."
 
 #. Explanation in the expanded details section
 msgctxt "widgetgallery.details.widget.hint.checkrepo"
 msgid "The widgets are likely in the referenced GitHub repository. Click the 'Go to the repository' button to open it."
-msgstr ""
+msgstr "A widget-ek valószínűleg a hivatkozott GitHub adattárban vannak. \"A repository felkeresése\" gombra kattintva megnyithatja."
 
 #. Green button in the expanded details section
 msgctxt "widgetgallery.details.widget.import"
@@ -920,10 +920,10 @@ msgstr "Hiba:"
 #. Dialog box title
 msgctxt "widgetgallery.widgetsdetected.dialog.title"
 msgid "Existing widgets detected"
-msgstr ""
+msgstr "Meglévő észlelt widget-ek"
 
 #. Dialog box message
 msgctxt "widgetgallery.widgetsdetected.dialog.message"
 msgid "Warning: please confirm you wish to update <nbexisting> existing widgets, overwriting any eventual changes made locally! If unsure, cancel and click Show details to review the list of affected widgets."
-msgstr ""
+msgstr "Figyelmeztetés: erősítse meg, hogy frissíteni kívánja a már létező <nbexisting> widget-et, az esetleg helyben végrehajtott változtatások elvesznek! Ha bizonytalan, akkor kattintson a Részletek megjelenítésre az érintett widgeten."
 
