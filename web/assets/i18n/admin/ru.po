@@ -11,12 +11,12 @@ msgstr ""
 "Last-Translator: openhab-bot <bot@openhab.org>\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
-"PO-Revision-Date: 2018-05-14 10:36-0400\n"
+"PO-Revision-Date: 2018-06-19T15:14:55+0000\n"
 
 #. Save button in the dashboard designer
 msgctxt "designer.save"
 msgid "Save"
-msgstr ""
+msgstr "Сохранить"
 
 #. Run button in the dashboard designer
 msgctxt "designer.run"
@@ -715,7 +715,7 @@ msgstr ""
 #. Tooltip displayed when hovering the help icon alongside the ID field
 msgctxt "customwidgets.designer.settings.config.id.hint"
 msgid "Enter a JSON friendly key for this setting - ideally, use only lowercase letters, digits and underscores. Examples: my_setting, first_item, text_size, font_color"
-msgstr ""
+msgstr "Введите имя для этого параметра в формате JSON. Используйте только строчные буквы, цифры и знаки подчеркивания. Для примера: my_setting, first_item, text_size, font_color"
 
 #. Textbox header
 msgctxt "customwidgets.designer.settings.config.label"
