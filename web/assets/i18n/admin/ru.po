@@ -11,7 +11,7 @@ msgstr ""
 "Last-Translator: openhab-bot <bot@openhab.org>\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
-"PO-Revision-Date: 2018-06-20T12:02:27+0000\n"
+"PO-Revision-Date: 2018-06-20T12:21:38+0000\n"
 
 #. Save button in the dashboard designer
 msgctxt "designer.save"
@@ -100,7 +100,7 @@ msgstr "Настройки панели"
 #. Tab header
 msgctxt "dashboard.settings.tile"
 msgid "Menu tile"
-msgstr ""
+msgstr "Меню плиткой"
 
 #. Textbox header
 msgctxt "dashboard.settings.tile.background_image_url"
@@ -155,7 +155,7 @@ msgstr "Пользовательский виджет"
 #. Accordion header
 msgctxt "dashboard.settings.customwidgets.tile"
 msgid "Main menu tile"
-msgstr ""
+msgstr "Главное меню плиткой"
 
 #. Checkbox label
 msgctxt "dashboard.settings.customwidgets.tile.description"
@@ -485,12 +485,12 @@ msgstr ""
 #. Displayed in a tooltip when hovering the icon indicating a globally provisioned widget
 msgctxt "customwidgets.list.globallyprovisioned.hint"
 msgid "This widget was provisioned globally via a bundle. It cannot be modified, but may be cloned to an user-defined widget with another name."
-msgstr ""
+msgstr "Этот виджет встроен. Он не может быть изменен, но может быть клонирован в пользовательские виджеты с другим именем."
 
 #. Displayed in a tooltip when hovering the icon indicating a user defined widget
 msgctxt "customwidgets.list.userdefined.hint"
 msgid "This widget has been defined manually in this panel configuration and can be modified."
-msgstr ""
+msgstr "В этой панели конфигурации виджет был создан пользователем. Он может быть изменен."
 
 #. Custom widget context menu entry - clone a globally-provisioned widget
 msgctxt "customwidgets.list.contextmenu.clone"
@@ -660,17 +660,17 @@ msgstr "Настройки конфигурации"
 #. Displayed in small text below the section header, with an information icon
 msgctxt "customwidgets.designer.settings.config.warning"
 msgid "Beware: always bear in mind instances of this widget might be existing when altering configuration settings!"
-msgstr ""
+msgstr "Внимание! Имейте в виду, что экземпляры этого виджета могут использоваться в существующей конфигурации!"
 
 #. Button label
 msgctxt "customwidgets.designer.settings.config.add"
 msgid "Add setting"
-msgstr ""
+msgstr "Добавить параметр"
 
 #. Dropdown header
 msgctxt "customwidgets.designer.settings.config.type"
 msgid "Type"
-msgstr ""
+msgstr "Тип"
 
 #. Dropdown option
 msgctxt "customwidgets.designer.settings.config.type.string"
@@ -920,10 +920,10 @@ msgstr ""
 #. Dialog box title
 msgctxt "widgetgallery.widgetsdetected.dialog.title"
 msgid "Existing widgets detected"
-msgstr ""
+msgstr "Найдены используемые виджеты"
 
 #. Dialog box message
 msgctxt "widgetgallery.widgetsdetected.dialog.message"
 msgid "Warning: please confirm you wish to update <nbexisting> existing widgets, overwriting any eventual changes made locally! If unsure, cancel and click Show details to review the list of affected widgets."
-msgstr ""
+msgstr "Внимание: Убедитесь, что вы хотите обновить <nbexisting> существующих виджет(ов), заменив их локально! Если вы не уверены, то отмените или нажмите кнопку \"Показать подробности\" для просмотра заменяемых виджетов."
 
