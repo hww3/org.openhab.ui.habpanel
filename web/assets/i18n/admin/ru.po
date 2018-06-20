@@ -11,7 +11,7 @@ msgstr ""
 "Last-Translator: openhab-bot <bot@openhab.org>\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
-"PO-Revision-Date: 2018-06-19T16:29:06+0000\n"
+"PO-Revision-Date: 2018-06-20T11:31:44+0000\n"
 
 #. Save button in the dashboard designer
 msgctxt "designer.save"
@@ -105,7 +105,7 @@ msgstr ""
 #. Textbox header
 msgctxt "dashboard.settings.tile.background_image_url"
 msgid "Background Image URL"
-msgstr ""
+msgstr "URL-адрес фонового изображения"
 
 #. Color picker header
 msgctxt "dashboard.settings.tile.title_text_color"
