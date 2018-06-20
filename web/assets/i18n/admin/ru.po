@@ -11,7 +11,7 @@ msgstr ""
 "Last-Translator: openhab-bot <bot@openhab.org>\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
-"PO-Revision-Date: 2018-06-20T11:31:44+0000\n"
+"PO-Revision-Date: 2018-06-20T11:41:30+0000\n"
 
 #. Save button in the dashboard designer
 msgctxt "designer.save"
@@ -110,47 +110,47 @@ msgstr "URL-адрес фонового изображения"
 #. Color picker header
 msgctxt "dashboard.settings.tile.title_text_color"
 msgid "Title Text color"
-msgstr ""
+msgstr "Цвет текста заголовка"
 
 #. Checkbox header
 msgctxt "dashboard.settings.tile.click_feedback"
 msgid "Click feedback"
-msgstr ""
+msgstr "Отзыв"
 
 #. Checkbox label
 msgctxt "dashboard.settings.tile.click_feedback.description"
 msgid "Don't brighten tile on click/tap"
-msgstr ""
+msgstr "Не подсвечивать по щелчку/тапу"
 
 #. Tab header
 msgctxt "dashboard.settings.advanced"
 msgid "Advanced"
-msgstr ""
+msgstr "Дополнительно"
 
 #. Alert display at the top
 msgctxt "dashboard.settings.advanced.warning"
 msgid "These options are currently experimental, unstable or targeted at advanced users! Use at your own risk."
-msgstr ""
+msgstr "Эти параметры в настоящее время являются экспериментальными, нестабильными и ориентированы на продвинутых пользователей! Используйте их на свой страх и риск."
 
 #. Tab header
 msgctxt "dashboard.settings.customwidgets"
 msgid "Custom widgets"
-msgstr ""
+msgstr "Пользовательские виджеты"
 
 #. Alert displayed at the top
 msgctxt "dashboard.settings.customwidgets.warning"
 msgid "This feature is currently experimental, and targeted at advanced users! Use at your own risk."
-msgstr ""
+msgstr "Эти параметры в настоящее время являются экспериментальными и ориентированы на продвинутых пользователей! Используйте их на свой страх и риск."
 
 #. Checkbox header
 msgctxt "dashboard.settings.customwidgets.usecustomwidget"
 msgid "Use a custom widget"
-msgstr ""
+msgstr "Использовать пользовательский виджет"
 
 #. Dropdown header
 msgctxt "dashboard.settings.customwidgets.customwidget"
 msgid "Custom Widget"
-msgstr ""
+msgstr "Пользовательский виджет"
 
 #. Accordion header
 msgctxt "dashboard.settings.customwidgets.tile"
@@ -170,17 +170,17 @@ msgstr ""
 #. Checkbox label
 msgctxt "dashboard.settings.customwidgets.drawer.description"
 msgid "Replace the contents of the drawer menu by a custom widget"
-msgstr ""
+msgstr "Заменить заголовок панели пользовательским виджетом"
 
 #. Accordion header
 msgctxt "dashboard.settings.customwidgets.header"
 msgid "Dashboard header"
-msgstr ""
+msgstr "Заголовок панели"
 
 #. Checkbox label
 msgctxt "dashboard.settings.customwidgets.header.description"
 msgid "Replace the contents of the dashboard header by a custom widget"
-msgstr ""
+msgstr "Заменить содержимое заголовка панели пользовательским виджетом"
 
 #. Displayed in the item picker when no item selected
 msgctxt "itempicker.placeholder"
@@ -190,7 +190,7 @@ msgstr ""
 #. Icon picker dropdown placeholder
 msgctxt "iconpicker.selecticonset"
 msgid "Select icon set"
-msgstr ""
+msgstr "Выберите набор иконок"
 
 #. Icon picker dropdown entry
 msgctxt "iconpicker.customicon"
@@ -205,7 +205,7 @@ msgstr ""
 #. Icon picker dropdown entry
 msgctxt "iconpicker.none"
 msgid "(none)"
-msgstr ""
+msgstr "(Нет)"
 
 #. Appears when focusing the icon textbox when the "Custom icon" iconset is selected
 msgctxt "iconpicker.customicontooltip"
