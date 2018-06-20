@@ -11,7 +11,7 @@ msgstr ""
 "Last-Translator: openhab-bot <bot@openhab.org>\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
-"PO-Revision-Date: 2018-06-20T12:21:38+0000\n"
+"PO-Revision-Date: 2018-06-20T12:51:20+0000\n"
 
 #. Save button in the dashboard designer
 msgctxt "designer.save"
@@ -36,7 +36,7 @@ msgstr "Добавить виджеты"
 #. Header of the custom widget section (beware, it might overlap the cogs icon on the right)
 msgctxt "designer.addwidget.customwidgets"
 msgid "Custom widgets"
-msgstr ""
+msgstr "Пользовательские виджеты"
 
 #. Open widget gallery
 msgctxt "designer.addwidget.getmore"
@@ -71,7 +71,7 @@ msgstr "Копировать/переместить {{widgetName}}"
 #. Alongside the dropdown dashboard selection
 msgctxt "designer.copymove.todashboard"
 msgid "To dashboard"
-msgstr ""
+msgstr "На главную"
 
 #. Move button
 msgctxt "designer.copymove.move"
@@ -160,7 +160,7 @@ msgstr "Главное меню плиткой"
 #. Checkbox label
 msgctxt "dashboard.settings.customwidgets.tile.description"
 msgid "Replace the tile contents by a custom widget"
-msgstr ""
+msgstr "Заменить плитку пользовательским виджетом"
 
 #. Accordion header
 msgctxt "dashboard.settings.customwidgets.drawer"
@@ -185,7 +185,7 @@ msgstr "Заменить содержимое заголовка панели п
 #. Displayed in the item picker when no item selected
 msgctxt "itempicker.placeholder"
 msgid "Search or select an openHAB item"
-msgstr ""
+msgstr "Искать или выберать элемент openHAB"
 
 #. Icon picker dropdown placeholder
 msgctxt "iconpicker.selecticonset"
@@ -195,12 +195,12 @@ msgstr "Выберите набор иконок"
 #. Icon picker dropdown entry
 msgctxt "iconpicker.customicon"
 msgid "Custom icon"
-msgstr ""
+msgstr "Ваша иконка"
 
 #. Icon picker dropdown entry
 msgctxt "iconpicker.customurl"
 msgid "Custom URL"
-msgstr ""
+msgstr "Ваш URL"
 
 #. Icon picker dropdown entry
 msgctxt "iconpicker.none"
@@ -210,12 +210,14 @@ msgstr "(Нет)"
 #. Appears when focusing the icon textbox when the "Custom icon" iconset is selected
 msgctxt "iconpicker.customicontooltip"
 msgid "Type the name of a <a href='http://docs.openhab.org/configuration/items.html#icons' target='_blank'>registered icon</a> (only SVG supported)<br />Examples: <em>switch</em>, <em>temperature</em> or an additional icon in your configuration's <code>icons/classic</code> folder"
-msgstr ""
+msgstr "Введите имя <a href='http://docs.openhab.org/configuration/items.html#icons' target='_blank'> изображения</a>\n"
+"(поддерживается только SVG)\n"
+"Примеры: <em>switch</em>, <em>temperature</em> или другой файл в папке <code>icons/classic</code>"
 
 #. Screen title
 msgctxt "settings.header"
 msgid "Settings"
-msgstr ""
+msgstr "Настройки"
 
 #. Header of the storage section
 msgctxt "settings.storage.header"
@@ -230,47 +232,47 @@ msgstr "Локальное хранилище"
 #. Explanation of the "local storage only" option
 msgctxt "settings.storage.localstorage.hint"
 msgid "The configuration is saved for this browser and device only. It will be kept as long as you don't clean up the browser's historical data."
-msgstr ""
+msgstr "Конфигурация сохраняется только для данного браузера на этом устройстве. Она будет храниться, пока вы не очистите историю браузера."
 
 #. Link below the "local storage" option
 msgctxt "settings.storage.localstorage.edit"
 msgid "Edit the local panel configuration (experts only)"
-msgstr ""
+msgstr "Редактировать конфигурацию локальной панели (для опытных)"
 
 #. Prefix of a panel configuration before its name
 msgctxt "settings.storage.panelconfiguration"
 msgid "Panel configuration:"
-msgstr ""
+msgstr "Конфигурация панели:"
 
 #. Prefix of the last synced line, before the date
 msgctxt "settings.storage.panelconfiguration.lastsynced"
 msgid "Last synced on"
-msgstr ""
+msgstr "Последняя синхронизация: %@"
 
 #. Displayed before the list of dashboard the panel configuration contains
 msgctxt "settings.storage.panelconfiguration.contains"
 msgid "Contains:"
-msgstr ""
+msgstr "Содержит:"
 
 #. Link to create a panel configuration from the current configuration
 msgctxt "settings.storage.panelconfiguration.save"
 msgid "Save the current configuration to a new panel configuration"
-msgstr ""
+msgstr "Сохранить настоящую конфигурацию в конфигурацию новой панели"
 
 #. Title of the dialog box when creating a new panel configuration
 msgctxt "settings.storage.panelconfiguration.dialog.title"
 msgid "New panel configuration"
-msgstr ""
+msgstr "Настройки новой панели"
 
 #. Message of the dialog box when creating a new panel configuration
 msgctxt "settings.storage.panelconfiguration.dialog.message"
 msgid "Please choose a name for the new panel configuration (letters and digits only please):"
-msgstr ""
+msgstr "Выберите имя новой конфигурации (только буквы и цифры):"
 
 #. Panel name (section header)
 msgctxt "settings.panel.name"
 msgid "Panel name"
-msgstr ""
+msgstr "Имя панели"
 
 #. Placeholder inside the text box
 msgctxt "settings.panel.name.hint"
@@ -280,37 +282,37 @@ msgstr ""
 #. Appearance (section header)
 msgctxt "settings.panel.appearance.header"
 msgid "Appearance"
-msgstr ""
+msgstr "Оформление"
 
 #. Dropown menu header
 msgctxt "settings.panel.appearance.theme"
 msgid "Theme"
-msgstr ""
+msgstr "Тема"
 
 #. Alert banner displayed when the browsers doesn't support themes (CSS variables)
 msgctxt "settings.panel.appearance.theme.not_supported"
 msgid "Themes are not compatible with this browser."
-msgstr ""
+msgstr "Темы, несовместимые с Вашим браузером."
 
 #. Setting header
 msgctxt "settings.panel.appearance.additional_stylesheet"
 msgid "Additional stylesheet (optional)"
-msgstr ""
+msgstr "Дополнительные стили (опционально)"
 
 #. Placeholder inside the text box
 msgctxt "settings.panel.appearance.additional_stylesheet.hint"
 msgid "Relative URL only; example: /static/example.css"
-msgstr ""
+msgstr "Относительный URL-адрес Пример: /static/example.css"
 
 #. Setting header
 msgctxt "settings.panel.appearance.background_image"
 msgid "Background image (optional)"
-msgstr ""
+msgstr "Фоновый рисунок (опционально)"
 
 #. Placeholder inside the text box
 msgctxt "settings.panel.appearance.background_image.hint"
 msgid "Example: //source.unsplash.com/random"
-msgstr ""
+msgstr "Пример: //source.unsplash.com/random"
 
 #. Setting header
 msgctxt "settings.panel.appearance.drawer_heading_image"
@@ -320,12 +322,12 @@ msgstr ""
 #. Placeholder inside the text box
 msgctxt "settings.panel.appearance.drawer_heading_image.hint"
 msgid "Example: //via.placeholder.com/265x95"
-msgstr ""
+msgstr "Пример: //via.placeholder.com/265x95"
 
 #. Checkbox
 msgctxt "settings.panel.appearance.prevent_scrolling"
 msgid "Prevent scrolling (when not editing)"
-msgstr ""
+msgstr "Запрет прокрутки (кроме режима редактирования)"
 
 #. Checkbox
 msgctxt "settings.panel.appearance.hide_drawer_footer"
@@ -335,77 +337,77 @@ msgstr ""
 #. Checkbox
 msgctxt "settings.panel.appearance.hide_toolbar_buttons"
 msgid "Hide toolbar buttons:"
-msgstr ""
+msgstr "Скрыть панель инструментов:"
 
 #. Checkbox
 msgctxt "settings.panel.appearance.show_clock"
 msgid "Show a clock on the header"
-msgstr ""
+msgstr "Показывать часы в заголовке"
 
 #. Textbox setting header, only displayed when the "Show a clock on the header" option is checked
 msgctxt "settings.panel.appearance.show_clock.header_format"
 msgid "Header clock format"
-msgstr ""
+msgstr "Формат часов в заголовке"
 
 #. Textbox placeholder, only displayed when the "Show a clock on the header" option is checked
 msgctxt "settings.panel.appearance.show_clock.header_format.hint"
 msgid "Default: shortTime, use AngularJS date format"
-msgstr ""
+msgstr "По умолчанию: shortTime - использует формат AngularJS"
 
 #. Custom widgets settings (section header)
 msgctxt "settings.panel.customwidgets.header"
 msgid "Custom Widgets"
-msgstr ""
+msgstr "Пользовательские виджеты"
 
 #. Big "manage" button label (a > suffix is added)
 msgctxt "settings.panel.customwidgets.manage"
 msgid "Manage"
-msgstr ""
+msgstr "Управление"
 
 #. Voice support (section header) - formerly (<=2.2.0) : "Voice feedback"
 msgctxt "settings.panel.voicesupport.header"
 msgid "Voice Support"
-msgstr ""
+msgstr "Голосовое управление"
 
 #. Dropdown header - formerly (<=2.2.0) : "Voice"
 msgctxt "settings.panel.voicesupport.speech_synthesis_voice"
 msgid "Speech synthesis voice"
-msgstr ""
+msgstr "Синтез речи"
 
 #. Displayed below the voice dropdown
 msgctxt "settings.panel.voicesupport.speech_synthesis_voice.hint"
 msgid "Available voices depend on the operating system and browser environments."
-msgstr ""
+msgstr "Доступные голоса зависят от операционной системы и браузера."
 
 #. Test button below the voice selection - make the voice say "habpanel 1 2 3"
 msgctxt "settings.panel.voicesupport.speech_synthesis_voice.test"
 msgid "Test"
-msgstr ""
+msgstr "Тест"
 
 #. Checkbox
 msgctxt "settings.panel.voicesupport.floating_speech_button"
 msgid "Display a floating speech button at the bottom of the screen"
-msgstr ""
+msgstr "Отображать плавающую кнопку голосового ввода в нижней части экрана"
 
 #. Dropdown header
 msgctxt "settings.panel.voicesupport.speech_synthesis_item"
 msgid "Speak the new value of the following item when it changes:"
-msgstr ""
+msgstr "Произнести новое значение переменной:"
 
 #. Section header
 msgctxt "settings.panel.dashboard_control.header"
 msgid "Switch dashboard with item value"
-msgstr ""
+msgstr "Переключить панель на имя в переменной"
 
 #. Dropdown header
 msgctxt "settings.panel.dashboard_control.item"
 msgid "When this item changes to a dashboard's name, switch to it:"
-msgstr ""
+msgstr "Когда переменная изменилась на имя панели, то перейти к этой панели:"
 
 #. Local panel configuration editor header
 msgctxt "settings.localconfig.title"
 msgid "Local panel configuration editor"
-msgstr ""
+msgstr "Редактор конфигурации локальной панели"
 
 #. Displayed in a tooltip when hovering the exclamation mark in the local panel config editor
 msgctxt "settings.localconfig.warning"
@@ -605,7 +607,7 @@ msgstr "Копировать виджет"
 #. Dialog box message
 msgctxt "customwidgets.list.clone.dialog.message"
 msgid "This will clone the globally provisioned widget: <id> to be modified as part of the panel configuration. Enter an unique identifier below - it must be different from the widget being cloned, and should avoid spaces and special chars. If an user-defined widget with the same identifier already exists, it will be replaced!"
-msgstr ""
+msgstr "Клонирование встроенного виджета <id>. Это может изменить конфигурацию панели. Введите уникальный идентификатор ниже. Он должен отличаться от идентификатора исходного виджета, не должен содержать пробелов и специальных символов. Если клонируемый виджет с таким же идентификатором уже существует, то он будет заменен!"
 
 #. Screen title, followed by the widget name - beware of size!
 msgctxt "customwidgets.designer.heading"
@@ -640,7 +642,7 @@ msgstr "Общие настройки"
 #. Textbox header
 msgctxt "customwidgets.designer.settings.general.display_name"
 msgid "Display name"
-msgstr ""
+msgstr "Имя"
 
 #. Textbox header
 msgctxt "customwidgets.designer.settings.general.author"
@@ -675,12 +677,12 @@ msgstr "Тип"
 #. Dropdown option
 msgctxt "customwidgets.designer.settings.config.type.string"
 msgid "String"
-msgstr ""
+msgstr "Строка"
 
 #. Dropdown option
 msgctxt "customwidgets.designer.settings.config.type.number"
 msgid "Number"
-msgstr ""
+msgstr "Число"
 
 #. Dropdown option
 msgctxt "customwidgets.designer.settings.config.type.checkbox"
