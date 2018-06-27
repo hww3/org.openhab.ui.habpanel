@@ -11,7 +11,7 @@ msgstr ""
 "Last-Translator: openhab-bot <bot@openhab.org>\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
-"PO-Revision-Date: 2018-03-05 11:02-0500\n"
+"PO-Revision-Date: 2018-06-27 16:28\n"
 
 #. Common term
 msgctxt "OK"
@@ -81,7 +81,7 @@ msgstr "Прозрачный"
 #. Common term
 msgctxt "openHAB Item"
 msgid "openHAB Item"
-msgstr ""
+msgstr "openHAB Item"
 
 #. Common term (e.g. tooltip in the dashboard header toolbar)
 msgctxt "Speak"
@@ -121,7 +121,7 @@ msgstr "Нажмите здесь, чтобы начать."
 #. Appears at the top of the screen when in edit mode and no dashboards are present
 msgctxt "tutorial.editmode"
 msgid "You're now in edit mode, where you can design dashboards."
-msgstr ""
+msgstr "Вы находитесь в режиме редактирования, здесь можно создавать панели мониторинга."
 
 #. Hint for the bottom left link when in edit mode and no dashboards are present - please use the Chrome developer tools and check with phone resolutions: iPhone 6, Nexus 5 etc.!
 msgctxt "tutorial.createfirstdashboard"
