@@ -64,6 +64,7 @@
                         <input ng-switch-when="number" type="number" ng-model="form.config[setting.id]" class="form-control" step="any" style="width: 120px">
                         <div ng-switch-when="checkbox" style="padding-top: 7px"><input type="checkbox" ng-model="form.config[setting.id]"> {{setting.description}}</div>
                         <item-picker ng-switch-when="item" ng-model="form.config[setting.id]"></item-picker>
+                        <thing-picker ng-switch-when="thing" ng-model="form.config[setting.id]"></thing-picker>
                         <select ng-switch-when="choice" ng-options="choice for choice in setting.choices.split(',')" ng-model="form.config[setting.id]" class="form-control"></select>
                         <icon-picker ng-switch-when="icon" iconset="form.config[setting.id + '_iconset']" icon="form.config[setting.id]"></icon-picker>
                         <div ng-switch-when="color" dab-model="form.config[setting.id]" web-colorpicker dab-width="20" dab-height="20" dab-radius="50" dab-vertical="4" dab-rotate="0" show-grayscale="true"></div>

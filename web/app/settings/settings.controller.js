@@ -89,6 +89,11 @@
             return item.type.startsWith('String');
         }
 
+        vm.isThingItem = function (item) {
+            return item.type.startsWith('Thing');
+        }
+
+
         vm.supportsSpeech = SpeechService.isSpeechRecognitionSupported();
 
         vm.supportsTheming = ($window.CSS && $window.CSS.supports && $window.CSS.supports('--a', 0));
@@ -113,7 +118,7 @@
 
             $timeout(function () {
                 vm.voices = SpeechService.getVoices();
-                OHService.reloadItems();
+                OHService.reloadData();
             }, 200);
 
             if (window.speechSynthesis && window.speechSynthesis.addEventListener) {

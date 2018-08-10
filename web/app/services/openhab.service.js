@@ -11,13 +11,17 @@
     function OHService($rootScope, $http, $q, $timeout, $interval, $filter, $location, SpeechService, tmhDynamicLocale, $translate) {
         this.getItem = getItem;
         this.getItems = getItems;
+        this.getThing = getThing;
+        this.getThingByUid = getThingByUid;
+        this.getThings = getThings;
         this.getLocale = getLocale;
         this.onUpdate = onUpdate;
         this.sendCmd = sendCmd;
         this.sendVoice = sendVoice;
-        this.reloadItems = reloadItems;
+        this.reloadData = reloadData;
 
         var liveUpdatesEnabled = false, prevAudioUrl = '', locale = null, eventSource = null;
+
 
         ////////////////
 
@@ -28,7 +32,7 @@
             //longPollUpdates(name);
         }
 
-        function loadItems() {
+        function loadData() {
             $http.get('/rest/items')
             .then(function (data) {
                 if (angular.isArray(data.data)) {
@@ -40,15 +44,35 @@
                     console.warn("Items not found? Retrying in 5 seconds");
                     $rootScope.reconnecting = true;
                     $rootScope.items = [];
-                    $timeout(loadItems, 5000);
+                    $timeout(loadData, 5000);
                 }
                 $rootScope.$emit('openhab-update');
             },
             function (err) {
                 console.warn("Error loading openHAB items... retrying in 5 seconds");
                 $rootScope.reconnecting = true;
-                $timeout(loadItems, 5000);
+                $timeout(loadData, 5000);
             });
+
+            $http.get('/rest/things')
+                .then(function (data) {
+                        if (angular.isArray(data.data)) {
+                            console.log("Loaded " + data.data.length + " openHAB things");
+                            $rootScope.reconnecting = false;
+                            $rootScope.things = data.data;
+                        } else {
+                            console.warn("Things not found? Retrying in 5 seconds");
+                            $rootScope.reconnecting = true;
+                            $rootScope.things = [];
+                            $timeout(loadData, 5000);
+                        }
+                        $rootScope.$emit('openhab-update');
+                    },
+                    function (err) {
+                        console.warn("Error loading openHAB things... retrying in 5 seconds");
+                        $rootScope.reconnecting = true;
+                        $timeout(loadData, 5000);
+                    });
         }
 
         function getItem(name) {
@@ -56,8 +80,22 @@
             return (item) ? item[0] : null;
         }
 
+        function getThing(name) {
+            var thing = $filter('filter')($rootScope.things, {name: name}, true);
+            return (thing) ? thing[0] : null;
+        }
+
+        function getThingByUid(thingUid) {
+            var thing = $filter('filter')($rootScope.things, {UID: thingUid}, true);
+            return (thing) ? thing[0] : null;
+        }
+
         function getItems() {
             return $rootScope.items;
+        }
+
+        function getThings() {
+            return $rootScope.things;
         }
 
         /**
@@ -76,7 +114,7 @@
 
                 // should be handled by server push messages but their delivery is erratic
                 // so perform a full refresh every time a command is sent
-                //loadItems();
+                //loadData();
             });
         }
 
@@ -154,8 +192,8 @@
             });
         }
 
-        function reloadItems() {
-            loadItems();
+        function reloadData() {
+            loadData();
         }
         
         function registerEventSource() {
@@ -259,7 +297,7 @@
                     console.error('SSE error, closing EventSource');
                     liveUpdatesEnabled = false;
                     this.close();
-                    $timeout(loadItems, 5000);
+                    $timeout(loadData, 5000);
                 }
             }
         }

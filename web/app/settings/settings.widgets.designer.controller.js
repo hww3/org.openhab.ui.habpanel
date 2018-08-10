@@ -58,7 +58,7 @@
         };
 
         $scope.refreshPreview = function () {
-            OHService.reloadItems();
+            OHService.reloadData();
             $timeout(function () {
                 $scope.$broadcast('rzSliderForceRender');
                 vm.previewmodel.row = 0;

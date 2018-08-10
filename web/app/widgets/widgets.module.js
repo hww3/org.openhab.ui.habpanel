@@ -18,6 +18,7 @@
     .directive('widgetIcon', WidgetIcon)
     .directive('itemTypeIcon', ItemTypeIcon)
     .directive('itemPicker', ItemPicker)
+    .directive('thingPicker', ThingPicker)
     .filter('themeValue', ThemeValueFilter)
     
 
@@ -185,6 +186,55 @@
         });
 
         vm.placeholderText = TranslationService.translate('itempicker.placeholder', 'Search or select an openHAB item');
+    }
+
+    ThingPicker.$inject = ['$filter', 'OHService'];
+
+    function ThingPicker($filter, OHService) {
+        var directive = {
+            bindToController: true,
+            link: link,
+            controller: ThingPickerController,
+            controllerAs: 'vm',
+            restrict: 'AE',
+            template:
+            '<ui-select ng-model="vm.selectedThing" theme="selectize" title="Choose an openHAB thing">' +
+            '  <ui-select-match placeholder="{{vm.placeholderText}}"><item-type-icon type="$select.selected.type"></item-type-icon>&nbsp;{{$select.selected.label}}</ui-select-match>' +
+            '  <ui-select-choices repeat="thing in vm.thinglist | filter: $select.search">' +
+            '    <div><item-type-icon type="thing.type"></item-type-icon>&nbsp;<span ng-bind-html="thing.label | highlight: $select.search"></div>' +
+            '    <small ng-bind-html="thing.UID | highlight: $select.search"></small>' +
+            '  </ui-select-choices>' +
+            '</ui-select>',
+            scope: {
+                ngModel: '=',
+                filterType: '@',
+/*
+                includeGroups: '=?'
+*/
+            }
+        };
+        return directive;
+
+        function link(scope, element, attrs) {
+        }
+    }
+    ThingPickerController.$inject = ['$scope', '$filter', 'OHService', 'TranslationService'];
+    function ThingPickerController ($scope, $filter, OHService, TranslationService) {
+        var vm = this;
+        vm.selectedThing = OHService.getThing(this.ngModel);
+        vm.thinglist = OHService.getThings();
+        if (this.filterType) {
+            vm.thinglist = $filter('filter')(vm.thinglist, function (thing) {
+                return !thing.thingTypeUID.indexOf(vm.filterType);
+            });
+        }
+
+        $scope.$watch("vm.selectedThing", function (newthing, oldvalue) {
+            if (newthing && newthing.UID)
+                $scope.vm.ngModel = newthing.UID;
+        });
+
+        vm.placeholderText = TranslationService.translate('thingpicker.placeholder', 'Search or select an openHAB thing');
     }
 
     ThemeValueFilter.$inject = ['$window'];

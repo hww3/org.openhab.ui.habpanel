@@ -84,7 +84,7 @@ angular.module('app')
             };
 
 
-            OHService.reloadItems();
+            OHService.reloadData();
             iNoBounce.disable();
 
             $scope.widgetGalleryTooltip = TranslationService.translate('designer.addwidget.getmore.tooltip', 'Open the widget gallery to import more widgets');

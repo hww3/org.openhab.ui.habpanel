@@ -49,7 +49,7 @@
 
     function activate() {
         $timeout(function() {
-            OHService.reloadItems();
+            OHService.reloadData();
             OHService.getLocale();
         });
         if ($rootScope.settings.no_scrolling) iNoBounce.enable(); else iNoBounce.disable();
@@ -62,7 +62,7 @@
     }
 
     vm.refresh = function() {
-        OHService.reloadItems();
+        OHService.reloadData();
     };
 
     vm.goFullscreen = function() {
